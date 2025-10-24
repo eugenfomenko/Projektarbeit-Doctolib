@@ -149,7 +149,7 @@ Infografik (Darstellung aller Begriffe und ihrer Beziehungen)
 
 - [Begriffsliste und Zusammenhänge](file:///D:/IHK%20-%20PrÃ¼fungen%20\(AP1,%20AP2\)/AP%202/Projektarbeit%20\(IHK-AbschlussprÃ¼fung\)/Projektarbeit%20-%20Doctolib/Doctolib_Begriffe.docx)
 
-![](Aspose.Words.fda18144-91ed-440a-9085-a95e3ddae147.001.jpeg)
+![images](Aspose.Words.fda18144-91ed-440a-9085-a95e3ddae147.001.jpeg)
 
 Begriffsliste und Zusammenhänge 
 
@@ -475,3 +475,4 @@ Die Fernsehsendung SWR Marktcheck zeigt die Vorteile von Doctolib (schnelle Onli
 - In ihm werden Terminarten und Öffnungszeiten im Voraus festgelegt; Patienten buchen freie Zellen online. 
 - Ein Mitarbeiter kann manuell Termine hinzufügen/verschieben, Patienten in eine digitale Warteschlange stellen, automatische Erinnerungen und „Recall“-Serien aktivieren. 
 - Urlaube und Vertretungen sind mit ein paar Klicks markiert, und die Patientendaten werden mit dem lokalen Register synchronisiert. Auf diese Weise vermeidet die Klinik doppelte Einträge und Leerlaufzeiten. 
+
