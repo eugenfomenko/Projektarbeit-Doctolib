@@ -3,21 +3,21 @@
 - **Windows-Nutzer**: Netzwerkverbundene Drucker (keine USB-Verbindung) 
 - **Mac-Nutzer**: Netzwerkverbundene oder USB-verbundene Drucker 
 
-**Kompatibilität:** Nur Drucker, die das **IPP-Protokoll** verwenden und **PDF-Format** unterstützen ![ref1]
+**Kompatibilität:** Nur Drucker, die das **IPP-Protokoll** verwenden und **PDF-Format** unterstützen !
 ## **Vorgehen**: 
 1. Gehe zur Seite **DDV-Einstellungen > Druckerbereich** 
 1. Klicke auf **„Drucker hinzufügen“** 
-1. Wähle aus der **Liste der erkannten Drucker** diejenigen aus, die du täglich verwenden möchtest ![ref1]
+1. Wähle aus der **Liste der erkannten Drucker** diejenigen aus, die du täglich verwenden möchtest !
 
 **Falls Drucker als „nicht kompatibel“ angezeigt werden:** 
 
 - Rufe die **Druckereinstellungen in der jeweiligen Software** auf und ermittle die **IP-Adresse** oder den **Hostnamen** deines Druckers 
-- Alternativ kann der Arzt/Anwender den **technischen Support** kontaktieren ![ref1]
+- Alternativ kann der Arzt/Anwender den **technischen Support** kontaktieren !
 
 **Du kannst nun Folgendes konfigurieren:** 
 
 - Die **Standardkonfiguration** deines Druckers für **alle Dokumententypen** 
-- Und/oder eine **erweiterte Konfiguration** für bestimmte Dokumententypen ![ref1]
+- Und/oder eine **erweiterte Konfiguration** für bestimmte Dokumententypen !
 
 **Beispiel für eine erweiterte Konfiguration:** 
 
@@ -28,12 +28,13 @@
 
 Diese erweiterte Konfiguration überschreibt die Standardkonfiguration **nur** für diesen Dokumententyp. 
 
-Du kannst für jeden Dokumententyp eine spezifische Druckkonfiguration festlegen. ![ref1]
+Du kannst für jeden Dokumententyp eine spezifische Druckkonfiguration festlegen. !
 
 **Wichtig:** 
 
 - Wenn du den Schalter **„Direktdruck verwenden“** im Druckerbereich deaktivierst, werden **alle konfigurierten Direktdrucke** für diesen Drucker deaktiviert. 
 - Der Punkt **„alle Konsultationsdokumente“** (Sammeldruck aller im Rahmen einer Konsultation erzeugten Dokumente) gilt ebenfalls als ein eigener Dokumententyp, den du individuell konfigurieren kannst.** 
 
-[ref1]: images/Aspose.Words.72ea9b5e-6be9-45db-b389-3ee391d3af60.001.jpeg
+
+
 
