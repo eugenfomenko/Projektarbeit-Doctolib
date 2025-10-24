@@ -4,7 +4,7 @@
 **1. GDT EXPORT - Auftrag aus Patientenakte an GDT Gerät senden**  
 1. In DL Einstellungen - erweiterte EInstellungen - Geräteintegration & Verbindung  
 
-![](Aspose.Words.72ea9b5e-6be9-45db-b389-3ee391d3af60.001.jpeg)
+![](images/gdt-01.png)
 
  
 
@@ -14,7 +14,7 @@
 - Gerätetyp: Wenn Gerät nicht dabei ist, ein anderen Typ auswählen 
 - Marke: auch individueller Text möglich, sollte Marke im Dropdown nicht erscheinen  
 
-![](Aspose.Words.72ea9b5e-6be9-45db-b389-3ee391d3af60.002.jpeg)
+![](images/gdt-02.png)
 
 4. Erstellen Sie Ihre GDT-Exporteinstellungen 
 - Dateiname zb test.gdt 
@@ -23,14 +23,15 @@
 - Untersuchungsgruppe und Untersuchungscode eindeutig für dieses Gerät einstellen  
 - Unten auf Erstellen klicken 
 
-![](Aspose.Words.72ea9b5e-6be9-45db-b389-3ee391d3af60.003.jpeg)
+![](images/gdt-03.png)
 
 **2. GDT IMPORT - Auftrag aus verbundenen Gerät abholen**  
 1. In DDV Einstellungen gehen (Burgermenü - Datei - Einstellungen - Synchronisierter Ordner  
 
-![](Aspose.Words.72ea9b5e-6be9-45db-b389-3ee391d3af60.004.jpeg)
+![](images/gdt-04.png)
 
 2. Neuen Ordner hinzufügen (Achtung, dies ist ein zu erstellender Ordner in dem die PDF Befunde des GDT Geräts abgespeichert werden sollen) 
 2. Ordnerpfad eingeben  
+
 
 
