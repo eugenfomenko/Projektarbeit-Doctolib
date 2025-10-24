@@ -4,7 +4,10 @@ Die **Telematikinfrastruktur (TI)** ist ein sicheres digitales Netzwerk, das den
 
 Ziel der TI ist es, die **Versorgungsqualität zu verbessern**, die **Patientensicherheit zu erhöhen** und **Verwaltungsprozesse zu vereinfachen**, indem ein einheitliches System für den Datenaustausch bereitgestellt wird. 
 
-Die Entwicklung der TI ist eine gemeinsame Initiative des Bundesministeriums für Gesundheit, medizinischer Fachverbände und Technologieunternehmen. Sie wurde schrittweise durch die gematik umgesetzt – von Pilotprojekten über die Einführung der eGK (2011) bis hin zum bundesweiten Ausbau von Diensten wie der ePA. Die TI wird kontinuierlich weiterentwickelt, um neue Funktionen zu integrieren und den neuesten technologischen Standards zu entsprechen. ![ref1]
+Die Entwicklung der TI ist eine gemeinsame Initiative des Bundesministeriums für Gesundheit, medizinischer Fachverbände und Technologieunternehmen. Sie wurde schrittweise durch die gematik umgesetzt – von Pilotprojekten über die Einführung der eGK (2011) bis hin zum bundesweiten Ausbau von Diensten wie der ePA. Die TI wird kontinuierlich weiterentwickelt, um neue Funktionen zu integrieren und den neuesten technologischen Standards zu entsprechen.
+
+![ref1]
+
 ### **Was ermöglicht die TI?** 
 Durch eine sichere und standardisierte Plattform für den Austausch medizinischer Informationen ermöglicht die TI eine nahtlose Kommunikation zwischen Leistungserbringern, Krankenkassen und Patienten. Dabei werden höchste Anforderungen an Datenschutz und Datensicherheit erfüllt. 
 
@@ -16,13 +19,16 @@ Durch eine sichere und standardisierte Plattform für den Austausch medizinische
 - **Elektronisches Rezept (eRezept):** Digitale Ausstellung, Signierung und Versendung von Rezepten. 
 - **Telemedizinische Dienste:** Unterstützung von Fernbehandlungen und digitalen Konsultationen. 
 - **Verwaltungsvereinfachung:** Automatisierte Prozesse wie Abrechnung und Antragsstellung durch standardisierte digitale Abläufe. 
-- **Datenschutz & IT-Sicherheit:** Sicherstellung von Vertraulichkeit, Integrität und Verfügbarkeit der Gesundheitsdaten. ![ref1]
+- **Datenschutz & IT-Sicherheit:** Sicherstellung von Vertraulichkeit, Integrität und Verfügbarkeit der Gesundheitsdaten.
+
+![ref1]
+  
 ### **Wie wird eine Praxis an die TI angeschlossen?** 
 Um eine Praxis an die TI anzuschließen, sind folgende Schritte erforderlich: 
 
 1. **Registrierung bei zuständigen Behörden** 
-1. **Vertrag mit einem autorisierten IT-Dienstleister (ITSP)** 
-1. **Beschaffung und Installation zertifizierter Hardware und Software** 
+2. **Vertrag mit einem autorisierten IT-Dienstleister (ITSP)** 
+3. **Beschaffung und Installation zertifizierter Hardware und Software** 
 
 **Benötigte Komponenten:** 
 
@@ -32,7 +38,10 @@ Um eine Praxis an die TI anzuschließen, sind folgende Schritte erforderlich:
 - **SMC-B (Institutionskarte):** Identifikation der medizinischen Einrichtung 
 - **PVS (Praxisverwaltungssystem):** Verwaltung von Patientendaten und TI-Diensten 
 
-IT-Dienstleister übernehmen die Installation, Konfiguration und Schulung des Praxispersonals. ![ref1]
+IT-Dienstleister übernehmen die Installation, Konfiguration und Schulung des Praxispersonals. 
+
+![ref1]
+
 ### **Wie verbindet sich Doctolib mit der TI und welche Voraussetzungen gibt es?** 
 **Voraussetzungen für den TI-Anschluss über Doctolib:** 
 
@@ -48,7 +57,9 @@ IT-Dienstleister übernehmen die Installation, Konfiguration und Schulung des Pr
   - Client-ID Konfiguration 
 - Kartenterminals werden an die konfigurierten Arbeitsplätze angeschlossen 
 - Die SMC-B-Karte wird in das Kartenterminal gesteckt und dem Mandanten zugewiesen 
-- Der Konnektor wird ins WLAN eingebunden und konfiguriert ![ref1]
+- Der Konnektor wird ins WLAN eingebunden und konfiguriert
+
+![ref1]
 
 **Konfiguration des TI-Konnektors in Doctolib** 
 
@@ -65,17 +76,17 @@ In den TI-Einstellungen sieht man bereits vorhandene Konnektor-Konfigurationen d
 **Daten, die vom ITSP eingetragen werden:** 
 
 1. **Standort:** Standort, für den der Konnektor konfiguriert wird 
-1. **Mandant-ID:** Entspricht der BSNR oder nBSNR 
-1. **Name des Konnektors:** Zur besseren Identifikation (z. B. Standort + Konnektor + PVS) 
-1. **Konnektor-Host:** IP-Adresse des Konnektors 
-1. **Port:** Immer 443 
-1. **Mandanten-Zertifikat importieren:** Client-Zertifikat aus dem Konnektor hochladen 
+2. **Mandant-ID:** Entspricht der BSNR oder nBSNR 
+3. **Name des Konnektors:** Zur besseren Identifikation (z. B. Standort + Konnektor + PVS) 
+4. **Konnektor-Host:** IP-Adresse des Konnektors 
+5. **Port:** Immer 443 
+6. **Mandanten-Zertifikat importieren:** Client-Zertifikat aus dem Konnektor hochladen 
 
    ` `*(Derzeit nur RSA-Verschlüsselung, ECC ist in Planung für 2025)* 
 
 7. **Passwort für das Mandanten-Zertifikat** 
-7. **Server-Zertifikat importieren:** Vergleich der Fingerprint-Codes vor dem Speichern 
-7. **Client-System-ID:** Eindeutiger Identifikator des Client-Systems 
+8. **Server-Zertifikat importieren:** Vergleich der Fingerprint-Codes vor dem Speichern 
+9. **Client-System-ID:** Eindeutiger Identifikator des Client-Systems 
 
 ![](images/ref_04.png)
 
@@ -107,4 +118,5 @@ Nach dem Einrichten der TI-Konfiguration und mindestens eines Arbeitsplatzes mus
 ![](images/ref_07.png)
 
 [ref1]: images/Aspose.Words.b8b1df-LINE.png
+
 
