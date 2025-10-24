@@ -54,13 +54,13 @@ IT-Dienstleister übernehmen die Installation, Konfiguration und Schulung des Pr
 
 Sobald die EHR-Funktion aktiviert ist, kann ein Admin im Menüpunkt **„Erweiterte Einstellungen“ → „TI-Konfiguration“** auf die TI-Einstellungen zugreifen. 
 
-![](Aspose.Words.b8b1df21-e2c9-4c35-8263-5b1a0c0961c6.002.png)
+![](images/ref_01.png)
 
-![](Aspose.Words.b8b1df21-e2c9-4c35-8263-5b1a0c0961c6.003.jpeg)
+![](images/ref_02.png)
 
 In den TI-Einstellungen sieht man bereits vorhandene Konnektor-Konfigurationen der Organisation (z. B. bei mehreren Standorten). Um einen neuen Konnektor anzulegen, klickt man auf **„Konnektor hinzufügen“**. 
 
-![](Aspose.Words.b8b1df21-e2c9-4c35-8263-5b1a0c0961c6.004.png)
+![](images/ref_03.png)
 
 **Daten, die vom ITSP eingetragen werden:** 
 
@@ -77,11 +77,11 @@ In den TI-Einstellungen sieht man bereits vorhandene Konnektor-Konfigurationen d
 7. **Server-Zertifikat importieren:** Vergleich der Fingerprint-Codes vor dem Speichern 
 7. **Client-System-ID:** Eindeutiger Identifikator des Client-Systems 
 
-![](Aspose.Words.b8b1df21-e2c9-4c35-8263-5b1a0c0961c6.005.jpeg)
+![](images/ref_04.png)
 
 Beim Speichern wird die Verbindung geprüft. Falls keine „OK“-Antwort zurückkommt, wird eine Fehlermeldung angezeigt (ohne Angabe des konkreten Fehlers). ![ref1]
 
-![](Aspose.Words.b8b1df21-e2c9-4c35-8263-5b1a0c0961c6.006.jpeg)
+![](images/ref_05.png)
 
 **Konfiguration der TI-Arbeitsplätze** 
 
@@ -91,7 +91,7 @@ Sobald die Konnektor-Verbindung erfolgreich eingerichtet ist, kann der ITSP die 
 
 Die Konfiguration erfolgt über den Menüpunkt **„Konfiguration des TI-Arbeitsplatzes“** in den Einstellungen. 
 
-![](Aspose.Words.b8b1df21-e2c9-4c35-8263-5b1a0c0961c6.007.jpeg)
+![](images/ref_06.png)
 
 **Erforderliche Eingaben:** 
 
@@ -100,10 +100,11 @@ Die Konfiguration erfolgt über den Menüpunkt **„Konfiguration des TI-Arbeits
 1. **Host:** IP-Adresse des Geräts im Netzwerk (in Netzwerkeinstellungen ersichtlich) 
 1. **Port:** Beliebiger, aber eindeutiger Port innerhalb der Praxis 
 
-![](Aspose.Words.b8b1df21-e2c9-4c35-8263-5b1a0c0961c6.008.jpeg)
+![](images/ref_07.png)
 
 Nach dem Einrichten der TI-Konfiguration und mindestens eines Arbeitsplatzes muss in der Kalenderansicht auf das Symbol des TI Control Centers geklickt werden, um diese Konfiguration anzuwenden (Hinweis: Dies ist eine veraltete Funktionalität und wird in Kürze entfernt). 
 
-![](Aspose.Words.b8b1df21-e2c9-4c35-8263-5b1a0c0961c6.009.png)
+![](images/ref_07.png)
 
-[ref1]: Aspose.Words.b8b1df21-e2c9-4c35-8263-5b1a0c0961c6.001.png
+[ref1]: images/Aspose.Words.b8b1df-LINE.png
+
