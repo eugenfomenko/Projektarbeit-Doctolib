@@ -61,5 +61,6 @@ sudo chown -R $(whoami):staff /Library/Frameworks/Ctorg32.framework/Versions/Cur
 ### **Einschränkungen** 
 Die Treiber für mobile Kartenleser sind veraltet und werden nicht regelmäßig aktualisiert. Sie unterstützen keine modernen Systeme, insbesondere nicht die ARM64-Architektur auf Mac-Geräten. In der Praxis bedeutet das: **Apple-Geräte ohne Intel-Prozessor können keine Daten mit einem mobilen Kartenleser auslesen.** 
 
-[ref1]: Aspose.Words.4c7ae3b1-0a02-4808-8e9c-f362911c44ed.001.png
+[ref1]:images/ASPOSE~1.PNG
+
 
