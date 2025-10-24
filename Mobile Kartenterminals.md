@@ -51,7 +51,7 @@ sudo chown -R $(whoami):staff /Library/Frameworks/Ctorg32.framework/Versions/Cur
 
 **Wichtig: Der mobile Kartenleser darf zu Beginn der Konfiguration NICHT angeschlossen sein!** 
 
-![](Aspose.Words.4c7ae3b1-0a02-4808-8e9c-f362911c44ed.002.jpeg)
+![](images/Aspose.Words.4c7ae3b1-0a02.jpeg)
 
 1. Öffnen Sie DDV und melden Sie sich mit einem Account an, der ein EHR-DE-Abonnement hat. 
 1. Gehen Sie zu **DDV Einstellungen → Mobiler Kartenleser** 
@@ -62,3 +62,4 @@ sudo chown -R $(whoami):staff /Library/Frameworks/Ctorg32.framework/Versions/Cur
 Die Treiber für mobile Kartenleser sind veraltet und werden nicht regelmäßig aktualisiert. Sie unterstützen keine modernen Systeme, insbesondere nicht die ARM64-Architektur auf Mac-Geräten. In der Praxis bedeutet das: **Apple-Geräte ohne Intel-Prozessor können keine Daten mit einem mobilen Kartenleser auslesen.** 
 
 [ref1]: Aspose.Words.4c7ae3b1-0a02-4808-8e9c-f362911c44ed.001.png
+
