@@ -6,22 +6,22 @@
 
 ![](Aspose.Words.72ea9b5e-6be9-45db-b389-3ee391d3af60.001.jpeg)
 
-w 
+ 
 
 2. Wähle “Verbindung erstellen” und “GDT Export” (Export meint hier den Auftrag aus DL ans Gerät zu senden)  
 2. Name und Herstellername hinzufügen ( 
-1. Name zB “EKG oben” 
-1. Gerätetyp: Wenn Gerät nicht dabei ist, ein anderen Typ auswählen 
-1. Marke: auch individueller Text möglich, sollte Marke im Dropdown nicht erscheinen  
+a. Name zB “EKG oben” 
+b. Gerätetyp: Wenn Gerät nicht dabei ist, ein anderen Typ auswählen 
+c. Marke: auch individueller Text möglich, sollte Marke im Dropdown nicht erscheinen  
 
 ![](Aspose.Words.72ea9b5e-6be9-45db-b389-3ee391d3af60.002.jpeg)
 
 4. Erstellen Sie Ihre GDT-Exporteinstellungen 
-1. Dateiname zb test.gdt 
-1. Ordnerpfad - aus den Eigenschaften des Speicherordners den Pfad kopieren   
-1. Zeichensatz  
-1. Untersuchungsgruppe und Untersuchungscode eindeutig für dieses Gerät einstellen  
-5. Unten auf Erstellen klicken 
+a. Dateiname zb test.gdt 
+b. Ordnerpfad - aus den Eigenschaften des Speicherordners den Pfad kopieren   
+c. Zeichensatz  
+d. Untersuchungsgruppe und Untersuchungscode eindeutig für dieses Gerät einstellen  
+e. Unten auf Erstellen klicken 
 
 ![](Aspose.Words.72ea9b5e-6be9-45db-b389-3ee391d3af60.003.jpeg)
 
@@ -32,3 +32,4 @@ w
 
 2. Neuen Ordner hinzufügen (Achtung, dies ist ein zu erstellender Ordner in dem die PDF Befunde des GDT Geräts abgespeichert werden sollen) 
 2. Ordnerpfad eingeben  
+
