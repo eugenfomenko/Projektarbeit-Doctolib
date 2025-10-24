@@ -2,6 +2,7 @@
 **Reminder: Feature switch drin? (support-medical devices)**  
 
 **1. GDT EXPORT - Auftrag aus Patientenakte an GDT Gerät senden** 
+
   (1) In DL Einstellungen - erweiterte EInstellungen - Geräteintegration & Verbindung  
 
   ![](images/Aspose.Words.72ea9b5e-6be9-45db-b389-3ee391d3af60.001.jpeg)
@@ -30,6 +31,7 @@
   ![](images/Aspose.Words.72ea9b5e-6be9-45db-b389-3ee391d3af60.004.jpeg)
   (2) Neuen Ordner hinzufügen (Achtung, dies ist ein zu erstellender Ordner in dem die PDF Befunde des GDT Geräts abgespeichert werden sollen) 
   (3) Ordnerpfad eingeben  
+
 
 
 
