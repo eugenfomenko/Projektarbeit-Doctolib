@@ -35,4 +35,5 @@ Du kannst für jeden Dokumententyp eine spezifische Druckkonfiguration festlegen
 - Wenn du den Schalter **„Direktdruck verwenden“** im Druckerbereich deaktivierst, werden **alle konfigurierten Direktdrucke** für diesen Drucker deaktiviert. 
 - Der Punkt **„alle Konsultationsdokumente“** (Sammeldruck aller im Rahmen einer Konsultation erzeugten Dokumente) gilt ebenfalls als ein eigener Dokumententyp, den du individuell konfigurieren kannst.** 
 
-[ref1]: Aspose.Words.3ac30fd8-b4ff-4f35-b2b2-c5e782034bac.001.png
+[ref1]: images/Aspose.Words.72ea9b5e-6be9-45db-b389-3ee391d3af60.001.jpeg
+
