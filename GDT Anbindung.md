@@ -6,7 +6,7 @@
 
 ![](Aspose.Words.72ea9b5e-6be9-45db-b389-3ee391d3af60.001.jpeg)
 
-w 
+
 
 2. Wähle “Verbindung erstellen” und “GDT Export” (Export meint hier den Auftrag aus DL ans Gerät zu senden)  
 2. Name und Herstellername hinzufügen ( 
@@ -32,3 +32,4 @@ w
 
 2. Neuen Ordner hinzufügen (Achtung, dies ist ein zu erstellender Ordner in dem die PDF Befunde des GDT Geräts abgespeichert werden sollen) 
 2. Ordnerpfad eingeben  
+
