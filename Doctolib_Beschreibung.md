@@ -173,7 +173,7 @@ eHBA (elektronischer Heilberufsausweis)
 
 SMC-B (Institutionskarte) 
 
-Zusammenhang 
+Zusammenhang 
 
 Online-Plattform, die mit Praxis- IT (PVS, TI-Dienste) zusammenspielt 
 
@@ -199,7 +199,7 @@ Persönliche Chipkarte der Ärztin/des Arztes
 
 Chipkarte der Praxis, wird mit eHBA genutzt 
 
-Sinn / Nutzen 
+Sinn / Nutzen 
 
 Patienten können Termine selbst buchen 
 
@@ -243,11 +243,11 @@ Was steckt hinter dem „unabhängigen Konnektor zu Medatixx“?
 
 **Ebene Technische Rolle** 
 
-**Was genau passiert?** 
+**Was genau passiert?** 
 
 Kleines Windows-Programm (Middleware) läuft auf jedem Praxis-PC oder dem PVS-Server. Es spricht **lokal** mit *Medatixx by Medatixx* (Datenbank / SDK) **und** online mit der Doctolib-API. 
 
-**Warum ist das nützlich?** 
+**Warum ist das nützlich?** 
 
 Kein fremder Zugriff auf das PVS – die Praxis behält die Datenhoheit. 
 
@@ -259,7 +259,7 @@ Kein fremder Zugriff auf das PVS – die Praxis behält die Datenhoheit.
 
 Doctolib gespiegelt. 
 
-Sorgt dafür, dass Online- Termine immer den aktuellsten Patienten- datensatz nutzen. [(community.doctolib.de)](https://community.doctolib.de/t/neuer-unabhaengiger-konnektor-zu-medatixx-by-medatixx-verfuegbar/38753) 
+Sorgt dafür, dass Online- Termine immer den aktuellsten Patienten- datensatz nutzen. [(community.doctolib.de)](https://community.doctolib.de/t/neuer-unabhaengiger-konnektor-zu-medatixx-by-medatixx-verfuegbar/38753) 
 
 Ändert der Patient z. B. seine 
 
@@ -281,7 +281,7 @@ Aus Doctolib lässt sich per Klick
 
 **Medatixx öffnen** (Patient-ID wird übergeben). 
 
-Spart Suche im PVS, besonders bei gleichen Namen. [(community.doctolib.de)](https://community.doctolib.de/t/neuer-unabhaengiger-konnektor-zu-medatixx-by-medatixx-verfuegbar/38753) 
+Spart Suche im PVS, besonders bei gleichen Namen. [(community.doctolib.de)](https://community.doctolib.de/t/neuer-unabhaengiger-konnektor-zu-medatixx-by-medatixx-verfuegbar/38753) 
 
 Wenn die MFA in Medatixx eine 
 
@@ -297,7 +297,7 @@ der Konnektor übergibt alle IDs und [(community.doctolib.de)](https://community
 
 Medatixx heraus anzeigen. 
 
-Schneller Überblick über alle Online-Termine eines Tages oder Patienten. [(community.doctolib.de)](https://community.doctolib.de/t/neuer-unabhaengiger-konnektor-zu-medatixx-by-medatixx-verfuegbar/38753) 
+Schneller Überblick über alle Online-Termine eines Tages oder Patienten. [(community.doctolib.de)](https://community.doctolib.de/t/neuer-unabhaengiger-konnektor-zu-medatixx-by-medatixx-verfuegbar/38753) 
 
 Installation & Voraussetzungen in 5 Schritten 
 
@@ -348,132 +348,32 @@ ORM ist eine „Schicht“, die SQL-Tabellendatensätze (Patienten, Termine) in 
 
 Bei der Integration von Doctolib in das Klinikprogramm liest/schreibt der Konnektor über ORM einfach Daten in die lokale PVS-Datenbank und sendet sie an die Doctolib-API, ohne manuell SQL zu schreiben. 
 
-**Typisches Szenario in einer Ebene** 
-
-**Doctolib-Integration** 
-
+**Typisches Szenario in einer Ebene Doctolib-Integration** 
 1  Lokaldatenbank des PVS 
+2  Middleware / Connector
+3  Cloud-Backend von Doctolib
+4  Eigenentwicklung / Reporting 
 
-2  Middleware / Connector 
+**Rolle von ORM** 
+1  Praxis¬verwaltungs¬systeme wie Medatixx, tomedo oder x.isynet speichern Patienten-, Termin- und Abrechnungs¬daten in relationalen SQL-Datenbanken 
+(PostgreSQL, MS SQL, MySQL …). 
+2  Beim bidirektionalen Abgleich holt die Middleware neue Patienten¬einträge aus der PVS-Datenbank und übergibt sie als JSON an die Doctolib-API – und umgekehrt. 
+3  Auch im Doctolib-Backend (Microservices) liegen Termin- und Nutzer¬daten in relationalen Clustern; API liefert sie als REST/FHIR-Objekte.
+4  Praxis oder IT-Dienstleister schreibt ein kleines Tool, das PVS-Daten analysiert (Fehlzeiten-Statistik, Recall-Listen) und mit Doctolib-Daten mergen soll. 
 
-3  Cloud-Backend von Doctolib 4  Eigenentwicklung / Reporting 
 
-**Rolle von ORM** 
 
-Praxisverwaltungssysteme wie **Medatixx, tomedo oder x.isynet** speichern Patienten-, Termin- und Abrechnungsdaten in relationalen SQL-Datenbanken (PostgreSQL, MS SQL, MySQL …). 
-
-Beim bidirektionalen Abgleich holt die Middleware neue Patienteneinträge aus der PVS-Datenbank und übergibt sie als JSON an die Doctolib-API – und umgekehrt. 
-
-Auch im Doctolib-Backend (Microservices) liegen Termin- und Nutzerdaten in relationalen Clustern; API liefert sie als REST/FHIR-Objekte. 
-
-Praxis oder IT-Dienstleister schreibt ein kleines Tool, das PVS-Daten analysiert (Fehlzeiten-Statistik, Recall-Listen) und mit Doctolib-Daten mergen soll. 
 
 **Kurz gesagt:** 
 
 Wenn Entwickler\*innen einen Connector oder ein Analyse-Tool rund um Doctolib bauen, erleichtert ORM die Arbeit mit den relationalen Praxisdatenbanken: man programmiert auf Objektebene („termin.startzeit“), während das Framework die passende SQL-Abfrage erledigt. 
 
-Doctolib-Kalender – so arbeitet das Praxisteam damit 
-
-**Schritt /  Was sieht & tut die Praxis im** 
-
-**Warum ist das nützlich?** 
-
-**Modul  Alltag?** 
-
-Grundstruktur anlegen 
-
-- Terminarten (z. B. „HNO-
-
-  Erstuntersuchung 30 min“) 
-
-  definieren, Farbe & Dauer  Alles geschieht in den **Einstellungen →** festlegen.  **Terminmanagement**; Drag-&-Drop & 
-
-1  Farbwahl machen den Plan sofort lesbar. 
-
-- Sprechzeiten (Öffnung, Pausen,  [(doctolib.zendesk.com,](https://doctolib.zendesk.com/hc/de/articles/360055550492-Meine-bestehenden-Terminarten-verwalten-anpassen) 
-
-  Urlaube) als farbige Blöcke  [doctolib.zendesk.com)](https://doctolib.zendesk.com/hc/de/articles/201750096-Warum-ist-ein-freies-Zeitfenster-im-Kalender-f%C3%BCr-Patient-innen-online-nicht-buchbar) 
-
-  einzeichnen. 
-
-- Terminarten einzelnen Sprechzeiten zuordnen. 
-
-Kalender zeigt farbige Slots; Filter links 
-
-2  Tages-/Wochenansicht  blenden einzelne Ärzt:innen, Räume oder 
-
-Geräte ein/aus. 
-
-- Klick auf freien Slot → „Mini-Terminkarte“ öffnet sich. 
-- Praxis sucht Patient*in oder legt Neu- patient*in an. 
-
-3  Termine anlegen / ändern 
-
-- Drag-&-Drop oder Doppelklick zum Verschieben / Verlängern. 
-- Spontan-Termine möglich, sogar wenn Pat. kein Online-Konto hat. 
-
-Online reservierte Slots erscheinen sofort 4  Online-Buchungen  (grau schraffiert, 15-Min-Reservierung 
-
-schützt vor Doppelgriff). 
-
-Praxis kann Pat. auf Warteliste setzen; bei 5  Digitale Warteliste  Absage verschickt das System 
-
-automatisch Einladungen an Vormerker. 
-
-SMS/E-Mail-Reminder vor dem Termin; Automatische Erinnerungen &  bei zyklischen Leistungen (z. B. Kontroll- 
-
-6 
-
-Recall  untersuchung) lassen sich **Recalls** in 
-
-festen Abständen planen.  
-
-7  Vertretungen & Ressourcen  In den Sprechzeiten lässt sich für Urlaube eine **Vertretung** (anderer Arzt, PA, Raum) 
-
-**Schritt /  Was sieht & tut die Praxis im** 
-
-**Warum ist das nützlich?** 
-
-**Modul  Alltag?** 
-
-hinterlegen; Rechte werden granular vergeben. 
-
-Klick auf Termin öffnet Patientenkarte (Kontaktdaten, Historie). Bei 
-
-8  Patientenkarte & Datenabgleich 
-
-angeschlossenem PVS (Medatixx, tomedo 
-
-u. a.) laufen Stammdaten bidirektional. Balken in der Kopfzeile zeigt neue 
-
-Termine, Terminänderungen oder 
-
-9  Benachrichtigungen & Aufgaben 
-
-Patientennachrichten; Aufgaben lassen sich als *dringend* markieren. 
-
-CSV-Export, iCal-Feed oder API-Zugriff für Controlling, Dienstplanung (z. B. via 
-
-10  Auswertungen & Export  Planerio). 
-
-**Typische Workflows** 
-
-1. **Montagmorgen:** MFA öffnet Wochenansicht, zieht per Maus einen Urlaubblock für 5 Tage → alle Online-Slots verschwinden sofort. 
-1. **Patient ruft an:** MFA klickt freien Slot, wählt schon gespeicherte Patientin; Terminkarte füllt sich automatisch, SMS-Bestätigung geht raus. 
-1. **Kurzfristige Absage:** Slot wird frei → System informiert drei Pat. auf Warteliste; der Schnellste übernimmt. 
-1. **Recall:** Für jede HPV-Impfung wird beim Abschließen des Termins ein 6-Monats- Recall gesetzt; Erinnerung läuft automatisch. 
-
-**Fazit daraus:**  
-
-Die Fernsehsendung SWR Marktcheck zeigt die Vorteile von Doctolib (schnelle Online- Registrierung, weniger Anrufe in Kliniken) und die Nachteile: 
-
-- Das System kann persönliche Daten von Patienten enthalten, die sich nie registriert haben, weil Ärzte ihre Datenbanken hochladen; 
-
-  Kurz & einfach (RU) 
+**Kalender in Doctolib:** 
 
 - Der Doctolib-Kalender ist der zentrale Arbeitsplan für die Klinik. 
 - In ihm werden Terminarten und Öffnungszeiten im Voraus festgelegt; Patienten buchen freie Zellen online. 
 - Ein Mitarbeiter kann manuell Termine hinzufügen/verschieben, Patienten in eine digitale Warteschlange stellen, automatische Erinnerungen und „Recall“-Serien aktivieren. 
 - Urlaube und Vertretungen sind mit ein paar Klicks markiert, und die Patientendaten werden mit dem lokalen Register synchronisiert. Auf diese Weise vermeidet die Klinik doppelte Einträge und Leerlaufzeiten. 
+
 
 
