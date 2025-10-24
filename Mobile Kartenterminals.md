@@ -31,13 +31,10 @@ Aktuell unterstützte mobile Kartenterminals:
 
 **Marke**  **Standard-Installationspfad** 
 
-Ingenico /  C:\Program Files (x86)\Ingenico 
-
-Worldline  Healthcare\ORGA\_6000\Tools\Ctorg32\_4\_developer\x64\CTORG64.lib 
-
-Cherry  C:\Program Files 
-
-ST-1530  (x86)\CHERRY\ST1530\Tools\Ctorg32\_4\_developer\x64\CTORG64.lib 
+Ingenico / C:\Program Files (x86)\Ingenico 
+Worldline  Healthcare\ORGA\_6000\Tools\Ctorg32\_4\_developer\x64\CTORG64.li
+Cherry     C:\Program Files    
+ST-1530    (x86)\CHERRY\ST1530\Tools\Ctorg32\_4\_developer\x64\CTORG64.lib 
 
 ` `**Typische Pfade unter macOS:** 
 
@@ -70,6 +67,7 @@ sudo chown -R $(whoami):staff /Library/Frameworks/Ctorg32.framework/Versions/Cur
 Die Treiber für mobile Kartenleser sind veraltet und werden nicht regelmäßig aktualisiert. Sie unterstützen keine modernen Systeme, insbesondere nicht die ARM64-Architektur auf Mac-Geräten. In der Praxis bedeutet das: **Apple-Geräte ohne Intel-Prozessor können keine Daten mit einem mobilen Kartenleser auslesen.** 
 
 [ref1]:images/ASPOSE~1.PNG
+
 
 
 
