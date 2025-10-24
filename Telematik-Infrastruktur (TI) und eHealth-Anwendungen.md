@@ -46,313 +46,140 @@ Datenstandards und medizinische Bildverarbeitung
 - **DICOM (Digital Imaging and Communications in Medicine)** – Industriestandard für Speicherung, Übertragung und Archivierung medizinischer Bilddaten (Röntgen, MRT etc.[)\[19\].](https://de.wikipedia.org/wiki/Picture_Archiving_and_Communication_System#:~:text=Wichtigste%20Voraussetzung%20f%C3%BCr%20die%20Etablierung,3%20%5D%20Es) Enthält Bilddaten plus Metadaten (Patient, Untersuchung). *Beispiel*: Ein CT liefert Bilder im DICOM-Format an das PACS. 
 - **PACS (Picture Archiving & Communication System)** – Bildarchivierungs- und Kommunikationssystem in Mediz[in\[20\].](https://de.wikipedia.org/wiki/Picture_Archiving_and_Communication_System#:~:text=Ein%20Picture%20Archiving%20and%20Communication,1) Server und Datenbanken speichern und verteilen DICOM-Bilder an Workstations im KH oder Praxis. *Beispiel*: Radiologische Bilder werden im PACS zentral abgelegt und können auf Station und in der Praxis eingesehen werden. 
 
-Strukturierte Übersichtstabelle 
+Telematikinfrastruktur (TI)
 
-Abkürzung ![](Aspose.Words.654a0944-946f-47e7-a4ee-d396554ddeac.001.png)**TI** 
+Die Telematikinfrastruktur ist ein geschlossenes, sicheres Netz aller Akteure im Gesundheitswesen und bildet die Basis für Anwendungen wie das E-Rezept, die elektronische Patientenakte und KIM. Sie dient dazu, medizinische Informationen sicher auszutauschen und digitale Prozesse rechtssicher abzuwickeln. Eine Praxis verbindet sich üblicherweise über einen TI-Konnektor und die Karten eHBA/SMC-B mit der TI.
 
-Vollform Telematikinfrastruktur 
+gematik
 
-Erklärung 
+Die gematik ist die staatliche Gesellschaft zum Aufbau und Betrieb der TI und der eGK-Infrastruktur. Sie koordiniert unter anderem die Einführung des elektronischen Rezepts und legt technische sowie organisatorische Vorgaben fest. In der Praxis bedeutet das zum Beispiel, dass die gematik die Rahmenbedingungen für die Nutzung des E-Rezepts bereitstellt.
 
-Geschlossenes sicheres Netz aller Akteure im Gesundheitswesen![](Aspose.Words.654a0944-946f-47e7-a4ee-d396554ddeac.002.png)[\[1\],](https://www.kvsaarland.de/kb/telematikinfrastruktur#:~:text=Die%20Telematikinfrastruktur%20,die%20Kommunikation%20sicher%20und%20schnell) Basis für Anwendungen wie eRezept, ePA, KIM. 
+eHBA – elektronischer Heilberufsausweis
 
-Beispiel 
+Der elektronische Heilberufsausweis ist eine persönliche Chipkarte für Ärztinnen, Ärzte und andere Heilberufler. Er dient als Zugangskarte zur TI und ermöglicht qualifizierte elektronische Signaturen, etwa für den eArztbrief oder das E-Rezept. Im Alltag signiert der Arzt ein E-Rezept digital mit dem eHBA.
 
-Praxis schaltet sich über Konnektor und HBA/SMC-B in die TI ein. ![](Aspose.Words.654a0944-946f-47e7-a4ee-d396554ddeac.003.png)
+SMC-B – Institutions- bzw. Praxisausweis
 
-**gematik**  Gesellschaft für 
+Die SMC-B ist die Chipkarte der Praxis oder Klinik und weist die Betriebsstätte in der TI aus. Sie wird benötigt, um sich an der TI zu registrieren und TI-Dienste zu nutzen. Eine Gemeinschaftspraxis beantragt eine SMC-B bei einem Kartenanbieter, damit sich das PVS an der TI anmelden kann.
 
-Telematikanwendungen der Gesundheitskarte 
+KIM – Kommunikation im Medizinwesen
 
-**eHBA**  elektronischer 
+KIM ist der sichere E-Mail-Dienst im Gesundheitswesen. Er dient dem verschlüsselten Versenden sensibler Dokumente wie Befunde und Arztbriefe zwischen Leistungserbringern. Ein typisches Beispiel ist, dass ein Facharzt einen Befund per KIM an die Hausärztin schickt, statt zu faxen.
 
-Heilberufsausweis 
+VSDM – Versichertenstammdatenmanagement
 
-**SMC**‑**B**  Security Module Card Typ B 
+Das VSDM gleicht die Versichertendaten auf der elektronischen Gesundheitskarte mit den Daten der Krankenkasse ab. Es dient der automatischen Aktualisierung der Patientendaten beim Einlesen der Karte. In der Praxis wird beim Stecken der eGK etwa eine neue Adresse automatisch in das PVS übernommen.
 
-Staatliche 
+E-Rezept
 
-Gesellschaft (GmbH) zum Aufbau und Betrieb der TI und eGK- Infrastruktur[\[2\].](https://de.wikipedia.org/wiki/Gematik#:~:text=Die%20Gematik%20GmbH%20,Interoperabilit%C3%A4t%20der%20beteiligten%20Komponenten%20sicherzustellen) 
+Das E-Rezept ist das digitale Verordnungsdokument für verschreibungspflichtige Arzneimittel und ersetzt seit 2024 schrittweise das Papierrezept. Es dient der rechtssicheren, medienbruchfreien Verordnung und Einlösung über die TI. Im Alltag erstellt die Ärztin das E-Rezept im PVS, signiert es mit dem eHBA, und der Patient löst es per eGK in der Apotheke ein.
 
-Chipkarte für Heilberufler (Ärzte, Apotheken etc.[)\[3\];](https://de.wikipedia.org/wiki/Elektronischer_Heilberufsausweis#:~:text=Der%20elektronische%20Heilberufsausweis%20,deshalb%20auch%20als%20Heilberufeausweis%20bezeichnet) dient als Zugangskarte und für qualifizierte Signaturen (z.B. eArztbrief). 
+eAU – elektronische Arbeitsunfähigkeitsbescheinigung
 
-Institutions -
+Die eAU ist die digitale Krankschreibung, die von der Praxis direkt an die Krankenkasse übermittelt wird. Sie dient der schnellen und sicheren Meldung ohne Papierformulare. In der Praxis erhält der Patient nur noch einen Auszug für den Arbeitgeber; die Krankenkasse bekommt die eAU elektronisch, und Arbeitgeber rufen sie digital ab.
 
-Gematik koordiniert die Einführung des elektronischen Rezepts. 
+ePA – elektronische Patientenakte
 
-Arzt signiert ein E- Rezept digital mit dem eHBA. 
+Die elektronische Patientenakte ist eine vom Versicherten geführte digitale Gesundheitsakte. Sie dient der Ablage und dem Teilen von Befunden, Diagnosen und Arztbriefen, auf die Ärzte mit Zustimmung zugreifen können. Beispielsweise werden Röntgenbilder und Laborberichte eines Patienten in die ePA eingestellt, sodass Behandler darauf zugreifen können.
 
-Gemeinschaftspraxi
+PVS – Praxisverwaltungssystem
 
-Abkürzung  Vollform  Erklärung  Beispiel 
+Ein PVS ist die Software zur digitalen Organisation in Arztpraxen. Es dient der Terminplanung, Abrechnung, Patientenakte und medizinischen Dokumentation. Im Quartalsalltag legt die Praxis einen Rechnungslauf an und druckt die Abrechnungen direkt aus dem PVS.
 
-/Praxisausweis für TI- s beantragt eine Zugang![ref1]![ref2]![ref1][\[4\].](https://www.gematik.de/telematikinfrastruktur/ti-zugang#:~:text=Institutionskarte%20SMC,Typ%20B) Identifiziert  SMC-B beim 
+CIS/KIS – Clinical/Krankenhaus-Informationssystem
 
-eine Praxis oder Klinik;  Kartenanbieter, um Voraussetzung für TI- sich an der TI zu Anbindung.  registrieren. 
+Ein KIS ist das IT-System zur Verwaltung klinischer Abläufe im Krankenhaus. Es dient der Dokumentation von Patientendaten, OP-Planung, Pflegeberichten und administrativen Prozessen. Stationsärztinnen dokumentieren dort ihre Visitenbefunde.
 
-Abkürzung  Vollform  Erklärung  Beispiel 
+Mandant
 
-**KIM**  Kommunikation im  Sicherer E-Mail-Dienst Medizinwesen  im 
+Ein Mandant ist die logisch getrennte Datenumgebung innerhalb einer Multi-User-Software wie einem PVS. Er dient der sauberen Trennung von Geschäfts- oder Abrechnungskreisen, etwa zwischen verschiedenen Standorten oder Fachbereichen. Ein MVZ betreibt im PVS zum Beispiel drei Mandanten, je einen pro Fachrichtung.
 
-Gesundheitswesen[\[5\].](https://www.gematik.de/anwendungen/kim#:~:text=Keine%20Arztbriefe%20mehr%20per%20Post%2C,die%20elektronische%20%C3%9Cbermittlung%20medizinischer%20Dokumente) Verschlüsselt Versenden von Befunden, Arztbriefen etc. 
+Druck-Queues
 
-**VSDM**  Versichertenstammdatenm Abgleich der anagement  Versichertendaten auf 
+Druck-Queues sind Warteschlangen für Druckaufträge an Netzwerkdruckern. Sie dienen der geordneten Abarbeitung mehrerer Jobs nacheinander. In der Praxis werden etwa alle Quartalsabrechnungen in die Druck-Queue gestellt, bis der Drucker frei ist.
 
-der eGK mit 
+KBV-Modulliste
 
-Krankenkassendaten[\[6 \].](https://www.kvsaarland.de/kb/telematikinfrastruktur#:~:text=,sind%20alle%20Teilnehmer%20an%20der) Automatische Aktualisierung der Patientendaten beim Einlesen der Gesundheitskarte. 
+Die KBV-Modulliste ist ein Verzeichnis zertifizierter PVS-Module für TI-Anwendungen wie eAU oder E-Rezept. Sie dient Praxen zur Prüfung, ob ihre Software die geforderten Funktionen regelkonform unterstützt. Ein Arzt kontrolliert dort, ob sein E-Rezept-Modul gelistet ist.
 
-**eRezept**  elektronisches Rezept  Digitales 
+Doctolib
 
-Verordnungsdokument für verschreibungspflichti ge Arzneimittel. Ablösung des Papier - Rezepts seit 202[4\[7\].](https://www.bundesgesundheitsministerium.de/e-rezept.html#:~:text=Das%20rosafarbene%20Papier,Apps%20oder%20mittels%20Papierausdruck%20einl%C3%B6sen) Arzt stellt es im PVS aus, signiert es mit eHBA, Übermittlung über TI. 
+Doctolib ist eine Online-Plattform beziehungsweise Software für Terminmanagement, Videosprechstunden und Patientenkommunikation. Sie dient der Entlastung des Telefons, besseren Auslastung und sicheren Kommunikation. Ein Patient bucht beispielsweise über die Doctolib-App einen Facharzttermin in seiner Nähe.
 
-**eAU**  elektronische  Digitale Arbeitsunfähigkeitsbeschein Krankschreibung, 
+KV – Kassenärztliche Vereinigung
 
-igung  direkt von Praxis an Krankenkasse 
+Die KV ist die regionale Körperschaft der Vertragsärzte. Sie dient der Organisation der ambulanten Versorgung und der Abrechnung mit den Krankenkassen. Die KV Nordrhein führt zum Beispiel Abrechnungsprüfungen bei Praxen durch.
 
-übermittelt[\[8\].](https://www.bundesaerztekammer.de/themen/aerzte/digitalisierung/digitale-anwendungen/telematikinfrastruktur/eau#:~:text=Die%20elektronische%20Arbeitsunf%C3%A4higkeitsbescheinigung%20,AU%29%20zweistufig%20ab) Patienten erhalten 
+KBV – Kassenärztliche Bundesvereinigung
 
-Auszug für 
+Die KBV ist der Bundesverband der KVen. Sie dient der Aushandlung bundesweiter Regelungen wie des EBM und der Zertifizierung von Praxis-Software und TI-Modulen. Ein Beispiel ist die Veröffentlichung von Zertifizierungsrichtlinien für ePA-Module.
 
-Arbeitgeber; Arbeitgeber rufen 
+GKV – Gesetzliche Krankenversicherung
 
-Krankschreibung elektronisch ab. 
+Die GKV bezeichnet das System der öffentlichen Krankenkassen in Deutschland. Es dient der Finanzierung der ambulanten und stationären Versorgung. Ein Arzt rechnet seine EBM-Leistungen etwa über die AOK oder BARMER ab.
 
-Facharzt sendet Befund per KIM an den Hausarzt (statt Fax). 
+PKV – Private Krankenversicherung
 
-Beim Scannen der eGK wird die neue Adresse des Patienten ins PVS übernommen. 
+Die PKV ist das private Krankenversicherungssystem. Sie dient der Absicherung von Privatpatienten wie Beamten oder Selbstständigen mit höherem Einkommen. Ein Privatpatient erhält eine Privatrechnung der Praxis und reicht sie bei seiner PKV ein.
 
-Arzt erstellt E-Rezept für Antibiotikum, Patient löst es per eGK in der Apotheke ein. 
+BMG – Bundesministerium für Gesundheit
 
-Bei Krankheit schickt die Praxis die eAU via KIM an die Kasse. 
+Das BMG ist das zuständige Bundesministerium für Gesundheitspolitik, Gesetze und Förderprogramme. Es dient der strategischen Steuerung des Gesundheitswesens und fördert unter anderem eHealth-Projekte. Ein Beispiel ist die Förderung telemedizinischer Anwendungen.
 
-Abkürzung  Vollform  Erklärung  Beispiel 
+BAS – Bundesamt für Soziale Sicherung
 
-**ePA** 
+Das BAS ist die Oberbehörde für Sozialversicherungen und war bis 2019 das Bundesversicherungsamt. Es dient der Aufsicht über die gesetzliche Sozialversicherung, etwa den Gesundheitsfonds. In der Praxis überwacht das BAS beispielsweise die Kassenführung der Krankenkassen.
 
-elektronische Patientenakte
+BfDI – Bundesbeauftragter für den Datenschutz und die Informationsfreiheit
 
-  Digitale 
+Der BfDI ist die unabhängige Bundesbehörde für Datenschutz und Informationsfreiheit. Sie dient der Aufsicht über den Schutz personenbezogener Daten und veröffentlicht Empfehlungen zur DSGVO-konformen Verarbeitung. Eine Praxis orientiert sich etwa an BfDI-Hinweisen zur digitalen Archivierung von Patientenakten.
 
-Gesundheitsakte, vom Versicherten geführt[\[9\].](https://www.kbv.de/praxis/digitalisierung/anwendungen/elektronische-patientenakte#:~:text=match%20at%20L271%20Die%20ePA,Sie%20soll%20au%C3%9Ferdem) Enthält Befunde, Diagnosen, Arztbriefe etc.; Ärzte können mit Zustimmung darauf zugreifen. 
+BSI – Bundesamt für Sicherheit in der Informationstechnik
 
-Röntgenbilder und Laborberichte eines Patienten werden in die ePA eingestellt. 
+Das BSI ist die Bundesoberbehörde für IT- und Cybersicherheit. Sie dient der Definition von Sicherheitsstandards und der Zertifizierung sicherheitsrelevanter Komponenten. In der Praxis können etwa Firewalls oder Verschlüsselungssoftware nach BSI-Kriterien bewertet werden.
 
-Abkürzung  Vollform  Erklärung  Beispiel 
+CIDR – Classless Inter-Domain Routing
 
-**PVS**  Praxisverwaltungssystem  Software zur digitalen 
+CIDR ist ein Verfahren zur flexiblen Zuweisung von IP-Netzen. Es dient der präzisen Netzadressierung mittels Präfixen anstelle starrer Klassen. Ein Praxisnetz kann zum Beispiel als 192.168.0.0/24 in CIDR-Notation beschrieben sein.
 
-Organisation und Dokumentation in Arztpraxen[\[21\].](https://www.kbv.de/praxis/digitalisierung/praxisverwaltungssystem#:~:text=Das%20Praxisverwaltungssystem%20,Funktioniert%20sie%20nicht%20einwandfrei) Unterstützt Terminplanung, Abrechnung, Patientenakten, Dokumentation. 
+Segmentierung
 
-**CIS/KIS**  Clinical/Krankenhaus- IT-System zur Informationssystem  Verwaltung klinischer 
+Segmentierung ist die Aufteilung eines Netzwerks in getrennte Subnetze oder VLANs. Sie dient der Sicherheit und besseren Strukturierung. In einer Praxis ist etwa das WLAN für Patienten logisch vom Praxis-EDV-Netz getrennt.
 
-Abläufe im Krankenhaus. Dokumentiert 
+Firewall
 
-Patientendaten, OP - Planung, Pflegeberichte, Verwaltung. 
+Eine Firewall ist ein Sicherheitssystem, das Netzwerkverkehr anhand von Regeln filtert. Sie dient dem Schutz vor unautorisierten Zugriffen und Angriffen aus dem Internet. Eine Praxis-Firewall blockiert beispielsweise Port-Scans und erlaubt nur explizit gewünschten KIM-Traffic.
 
-**Mandant**  –  Trennung von Daten in 
+EDR – Endpoint Detection & Response
 
-einer Multi-User- Software (z.B. PVS). Jeder Mandant repräsentiert ein Geschäfts- oder Abrechnungskreis (Praxis, MVZ-Zweig). 
+EDR ist eine Cybersecurity-Lösung für Endgeräte. Sie dient der Echtzeitüberwachung von Prozessen und Netzwerkaktivität, erkennt Angriffe wie Verschlüsselungsversuche und kann Systeme automatisch isolieren. Ein EDR-Agent auf dem Praxisrechner warnt vor verdächtigem Verhalten einer Malware.
 
-**Druck-** –  Warteschlangen für **Queues**  Druckaufträge im 
+AV-Vertrag – Auftragsverarbeitungsvertrag
 
-Netzwerkdrucker. Neue Jobs werden eingereiht, bis Drucker sie verarbeitet. 
+Der AV-Vertrag ist ein DSGVO-Vertrag zwischen Verantwortlichem, etwa der Arztpraxis, und einem Dienstleister wie einem Cloud-Provider. Er dient der verbindlichen Regelung der Datenschutz- und Sicherheitsmaßnahmen bei der Datenverarbeitung. In der Praxis schließt die Arztpraxis einen AVV mit ihrem IT-Dienstleister für die sichere Datenspeicherung im Rechenzentrum.
 
-**KBV-** –  Liste zertifizierter 
+TOMs – Technische und organisatorische Maßnahmen
 
-Praxissoftware legt einen Rechnungslauf an und druckt die Abrechnungen. 
+TOMs sind Maßnahmen gemäß DSGVO Art. 32 zum Schutz personenbezogener Daten. Sie dienen der Absicherung durch zum Beispiel Zutrittskontrollen, Verschlüsselung und konsequentes Zugriffsmanagement. Verschlüsselte Backups und ein Token-basiertes Zugriffskonzept sind typische TOMs in der Praxis.
 
-Stationsärzte dokumentieren die Visitenbefunde im KIS. 
+HL7
 
-Ein MVZ betreibt im PVS drei Mandanten: je einen für jede Fachrichtung. 
+HL7 ist eine internationale Normengemeinschaft und bezeichnet zugleich Formate für Gesundheitsdaten. HL7-Nachrichten dienen dem strukturierten Austausch von Patientendaten zwischen Systemen. Ein Labor übermittelt zum Beispiel Messergebnisse im HL7-Format an das PVS.
 
-Die Quartalsabrechnung en werden in der Druck-Queue geparkt, bis der Drucker frei wird. 
+FHIR – Fast Healthcare Interoperability Resources
 
-Arzt prüft, ob sein 
+FHIR ist ein moderner HL7-Standard für Gesundheitsdaten in XML oder JSON. Er dient dem modularen Datenaustausch über Web-APIs anhand von Ressourcen wie Patient, Observation oder Medication. Ein Terminservice kann über eine FHIR-API Patientendaten aus der Praxissoftware abrufen.
 
-Abkürzung  Vollform  Erklärung  Beispiel 
+DICOM – Digital Imaging and Communications in Medicine
 
-**Modulliste**  Module der KBV für TI- PVS-Modul für das ![ref1]![ref2]![ref1]
+DICOM ist der internationale Standard für die Speicherung und Übertragung medizinischer Bilddaten samt Metadaten. Er dient der herstellerübergreifenden Zusammenarbeit zwischen Geräten und Systemen. Ein CT-Scanner sendet seine DICOM-Bilder beispielsweise an das PACS.
 
-Anwendungen (z.B.  eRezept in der KBV- eAU-, eRezept-Module  Liste aufgeführt ist. in PVS[)\[10\].](https://www.bundesaerztekammer.de/themen/aerzte/digitalisierung/digitale-anwendungen/telematikinfrastruktur/eau#:~:text=Die%20Kassen%C3%A4rztliche%20Bundesvereinigung%20,bereits%20zertifizierten%20Systeme%20zur%20Verf%C3%BCgung) Nutzt 
+PACS – Picture Archiving and Communication System
 
-Praxis zur Prüfung, ob 
+Das PACS ist das medizinische Bildarchivsystem. Es dient der Speicherung, Verwaltung und Verteilung von DICOM-Bildern im Klinik- oder Praxisnetz. Röntgenbilder werden dort zentral abgelegt und an Befundarbeitsplätze verteilt.
 
-Software die 
+Kurzfazit: Jede Komponente hat eine klare Rolle im Praxisalltag: Die TI stellt die sichere Infrastruktur, gematik und KBV definieren Rahmen und Zertifizierungen, eHBA und SMC-B sichern Identität und Zugang, KIM, eRezept, eAU und ePA bilden die Anwendungen, PVS und Doctolib unterstützen die täglichen Abläufe, während Sicherheits-, Netzwerk- und Datenschutzbausteine wie BSI-Standards, Firewalls, EDR, AV-Verträge, TOMs sowie Standards wie HL7, FHIR, DICOM und PACS für verlässliche, interoperable und datenschutzkonforme Prozesse sorgen. 
 
-Anforderungen erfüllt. 
-
-Abkürzung  Vollform  Erklärung  Beispiel 
-
-**Doctolib**  –  Online-
-
-Plattform/Software für Terminmanagement, Videosprechstunden und Patientenkommunikati o[n\[11\].](https://de.wikipedia.org/wiki/Doctolib#:~:text=Doctolib%20SAS%20ist%20ein%20franz%C3%B6sisches,19%20zum%20Einsatz) 
-
-**KV**  Kassenärztliche Vereinigung  Regionale 
-
-Körperschaft der Vertragsärzte. Organisiert ambulante Versorgung und Abrechnung mit Krankenkassen. 
-
-Patient bucht über Doctolib-App einen Facharzttermin in seiner Nähe. 
-
-Kassenärztliche Vereinigung Nordrhein führt Prüfungen für Abrechnungen durch. 
-
-Abkürzung  Vollform  Erklärung  Beispiel 
-
-**KBV**  Kassenärztliche 
-
-Bundesvereinigung 
-
-**GKV**  Gesetzliche 
-
-Krankenversicherung 
-
-Bundesverband der KVen; Aushandlung der Gebührenordnung (EBM), Zertifizierung von Praxis-Software und TI-Modulen. 
-
-System der öffentlichen Krankenkassen in Deutschland. Finanzieren die ambulante und stationäre Versorgung. 
-
-KBV veröffentlicht Zertifizierungsrichtlin ien für ePA-Module. 
-
-Arzt rechnet Leistung nach EBM über die GKV (z.B. AOK, BARMER) ab. 
-
-Abkürzung  Vollform  Erklärung  Beispiel 
-
-**PKV**  Private Krankenversicherung  Privates 
-
-Krankenversicherungs system. Versicherte sind z.B. Beamte, Selbstständige mit höherem Einkommen. 
-
-**BMG**  Bundesministerium f.  Bundesministerium für 
-
-Gesundheit  Gesundheit; zuständig 
-
-Privatpatient erhält Privatrechnung, die er seiner PKV einreicht. 
-
-BMG fördert Projekte zur Telemedizin und 
-
-Abkürzung  Vollform  Erklärung  Beispiel 
-
-**BAS** 
-
-Bundesamt f. Soziale Sicherung 
-
-für Gesundheitspolitik, Gesetze, Förderprogramme. 
-
-Bis 2019 Bundesversicherungsa mt; Oberbehörde für Sozialversicherung (Gesundheitsfonds, Renten u.a.![ref3][)\[12\].](https://de.wikipedia.org/wiki/Bundesamt_f%C3%BCr_Soziale_Sicherung#:~:text=Das%20Bundesamt%20f%C3%BCr%20Soziale%20Sicherung,3) 
-
-eHealth. 
-
-Das BAS überwacht die Kassenführung der Krankenkassen. ![ref4]
-
-Abkürzung  Vollform  Erklärung  Beispiel 
-
-**BfDI**  Bundesbeauftragter f.  Unabhängige Datenschutz &  Bundesbehörde für Informationsfreiheit  Datenschutz (DSGVO) 
-
-und 
-
-Informationsfreiheit[\[13 \].](https://de.wikipedia.org/wiki/Bundesbeauftragter_f%C3%BCr_den_Datenschutz_und_die_Informationsfreiheit#:~:text=Die%20Bundesbeauftragte%20%20f%C3%BCr%20den,47%20im%20Ortsteil%20Castell) 
-
-**BSI**  Bundesamt für Sicherheit in  Bundesoberbehörde der Informationstechnik  für IT- und Cyber -
-
-Sicherhei[t\[14\].](https://de.wikipedia.org/wiki/Bundesamt_f%C3%BCr_Sicherheit_in_der_Informationstechnik#:~:text=Das%20Bundesamt%20f%C3%BCr%20Sicherheit%20in,Sicherheitsbeh%C3%B6rde%20des) Gibt Sicherheitsstandards 
-
-und Zertifikate heraus. **CIDR**  Classless Inter-Domain  Verfahren zur flexiblen 
-
-Routing  Zuweisung von IP- Adressblöcken statt 
-
-starrer Klassen[\[15\].](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#:~:text=Classless%20Inter,2) Kennzeichnet Netze 
-
-durch Präfix (z.B. /24). 
-
-**Segmentie** –  Unterteilung eines **rung**  Netzwerks in mehrere 
-
-separate Subnetze oder VLANs. Erhöht Sicherheit und Struktur. 
-
-**Firewall**  –  Sicherheitssystem, 
-
-das Netzwerkdatenverkehr anhand von Regeln filter[t\[16\].](https://www.cloudflare.com/de-de/learning/security/what-is-a-firewall/#:~:text=Eine%20Firewall%20ist%20ein%20Sicherheitssystem%2C,Bedrohungen%20zu%20sch%C3%BCtzen) Schützt vor unautorisierten Zugriffen aus dem Internet. 
-
-**EDR**  Endpoint Detection &  Cybersecurity-Lösung 
-
-Response  für Endgeräte. 
-
-Ein Arzt orientiert sich an BfDI- Empfehlungen, wenn er Patientenakten digital archiviert. 
-
-Das BSI zertifiziert Komponenten wie Firewall oder Verschlüsselungssof tware. 
-
-Ein Praxisnetz hat die IP-Range 192.168.0.0/24 (CIDR-Notation). 
-
-WLAN für Patienten ist durch Segmentierung vom Praxis-EDV-Netz getrennt. 
-
-Die Praxis-Firewall blockiert Port-Scans aus dem Internet und lässt nur KIM- Traffic zu. 
-
-Ein EDR-Agent auf dem Praxisrechner 
-
-Abkürzung  Vollform  Erklärung  Beispiel 
-
-Überwacht Aktionen  warnt vor (Prozesse, Netzwerk) ![ref1]![ref2]![ref1] verdächtigem 
-
-in Echtzeit, erkennt  Verschlüsselungspro und isoliert  gramm. Bedrohungen (z.B. 
-
-Malware). 
-
-Abkürzung  Vollform  Erklärung  Beispiel 
-
-**AV-Vertrag**  Auftragsverarbeitungs- 
-
-vertrag 
-
-Vertrag nach DSGVO zwischen Verantwortlichem (z.B. Arztpraxis) und Dienstleister (z.B. Cloud-Provider), der Datenschutz-Pflichten regelt. 
-
-Die Praxis schließt mit ihrem IT- Dienstleister einen AVV ab, der sichere Datenspeicherung im Rechenzentrum garantiert. 
-
-Abkürzung  Vollform  Erklärung  Beispiel 
-
-**TOMs**  Technische und  Maßnahmen gemäß organisatorische  DSGVO Art. 32 zum 
-
-Maßnahmen  Schutz personenbezogener 
-
-Daten (z.B. Zutrittskontrollen, 
-
-Verschlüsselung, 
-
-Zugriffsmanagement). 
-
-**HL7**  Health Level Seven  Internationale 
-
-Normengemeinschaft; definiert Datenformate für Gesundheitsinformati onen[\[17\].](https://de.wikipedia.org/wiki/HL7#:~:text=Health%20Level%207%20,und%20deren%20%2073) HL7- Nachrichten übertragen Patientendaten zwischen Systemen. 
-
-**FHIR**  Fast Healthcare  Moderner HL7- Interoperability Resources  Standard für 
-
-Gesundheitsdaten 
-
-(XML/JSON)[\[18\].](https://de.wikipedia.org/wiki/HL7#:~:text=match%20at%20L429%20Fast%20Healthcare,7) Bietet modulare 
-
-„Ressourcen“ (Patient, Observation, Medication etc.) für Datenaustausch per Webservice. 
-
-Verschlüsseltes Backup und Zugriffskontrolle (Passwort, Tokens) sind Beispiele für TOMs in der Praxis. 
-
-Laborwerte werden im HL7-Format vom Praxislabor ans PVS übermittelt. 
-
-Ein Terminbuchungsdien st verwendet FHIR - API, um Patientendaten aus der Praxissoftware abzurufen. 
-
-
-**DICOM** 
-
-Digital Imaging and Communications in Medicine 
-
-Internationaler Standard für Speicherung/Übertrag ung medizinischer Bilddaten[\[19\].](https://de.wikipedia.org/wiki/Picture_Archiving_and_Communication_System#:~:text=Wichtigste%20Voraussetzung%20f%C3%BCr%20die%20Etablierung,3%20%5D%20Es) Enthält Bild und Metadaten (Patient, Gerät, Untersuchungsinfo). 
-
-Ein CT-Gerät sendet DICOM-Bilder an das PACS. 
-
-
-**PACS**  Picture Archiving & 
-
-Communication System 
-
-Bildarchivsystem für Mediz[in\[20\].](https://de.wikipedia.org/wiki/Picture_Archiving_and_Communication_System#:~:text=Ein%20Picture%20Archiving%20and%20Communication,1) Speichert, verwaltet und 
-
-überträgt DICOM- Bilder im Krankenhausnetz. 
-
-Röntgenbilder werden auf dem PACS-Server abgelegt und an die Befundarbeitsstation verteilt. 
 
 
 **Quellen:** V. a. Informationen der gematik, KBV und gesetzlicher Stellen zu TI und eHealth[\[1](https://www.kvsaarland.de/kb/telematikinfrastruktur#:~:text=Die%20Telematikinfrastruktur%20,die%20Kommunikation%20sicher%20und%20schnell)[\]\[3](https://de.wikipedia.org/wiki/Elektronischer_Heilberufsausweis#:~:text=Der%20elektronische%20Heilberufsausweis%20,deshalb%20auch%20als%20Heilberufeausweis%20bezeichnet)[\]\[7](https://www.bundesgesundheitsministerium.de/e-rezept.html#:~:text=Das%20rosafarbene%20Papier,Apps%20oder%20mittels%20Papierausdruck%20einl%C3%B6sen)[\]\[8](https://www.bundesaerztekammer.de/themen/aerzte/digitalisierung/digitale-anwendungen/telematikinfrastruktur/eau#:~:text=Die%20elektronische%20Arbeitsunf%C3%A4higkeitsbescheinigung%20,AU%29%20zweistufig%20ab)[\]\[5](https://www.gematik.de/anwendungen/kim#:~:text=Keine%20Arztbriefe%20mehr%20per%20Post%2C,die%20elektronische%20%C3%9Cbermittlung%20medizinischer%20Dokumente)[\]\[6](https://www.kvsaarland.de/kb/telematikinfrastruktur#:~:text=,sind%20alle%20Teilnehmer%20an%20der)[\]\[17](https://de.wikipedia.org/wiki/HL7#:~:text=Health%20Level%207%20,und%20deren%20%2073)[\]\[19\],](https://de.wikipedia.org/wiki/Picture_Archiving_and_Communication_System#:~:text=Wichtigste%20Voraussetzung%20f%C3%BCr%20die%20Etablierung,3%20%5D%20Es) einschlägige Wikipedia-Artikel und IT-Security- Dokumentationen. ![](Aspose.Words.654a0944-946f-47e7-a4ee-d396554ddeac.008.png)
@@ -404,3 +231,4 @@ Communication System
 [ref2]: Aspose.Words.654a0944-946f-47e7-a4ee-d396554ddeac.005.png
 [ref3]: Aspose.Words.654a0944-946f-47e7-a4ee-d396554ddeac.006.png
 [ref4]: Aspose.Words.654a0944-946f-47e7-a4ee-d396554ddeac.007.png
+
