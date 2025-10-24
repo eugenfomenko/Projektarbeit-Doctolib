@@ -58,12 +58,9 @@ Wie spielt das in der Praxis zusammen? (typischer Ablauf)
 **Nutzen für die Praxis  Hinweis** 
 1. 24/7-Buchung, automatische Erinnerungen, Wartelisten
 2. Telefon wird entlastet, Anfragen werden strukturiert erfasst  
-3.  DSGVO-konforme Fernbehandlung, Rezept- oder Überweisungswünsche
-4.  Sichere Kollaboration mit Kolleg\*innen
-5.  
-[(info.doctolib.de)](https://info.doctolib.de/allgemeinarzt/) 
-[(info.doctolib.de)](https://info.doctolib.de/allgemeinarzt/) 
-[(doctolib.zendesk.com)](https://doctolib.zendesk.com/hc/de/articles/23956437661332-Tipps-und-Hinweise-zur-Verwendung-von-E-Rezepten-mit-Doctolib) online 
+3. DSGVO-konforme Fernbehandlung, Rezept- oder Überweisungswünsche
+4. Sichere Kollaboration mit Kolleg:innen online 
+  
 [(info.doctolib.de)](https://info.doctolib.de/allgemeinarzt/) 
 
 3 | Was ist ein PVS (Praxisverwaltungssystem)? 
@@ -336,6 +333,7 @@ Wenn Entwickler\*innen einen Connector oder ein Analyse-Tool rund um Doctolib ba
 - In ihm werden Terminarten und Öffnungszeiten im Voraus festgelegt; Patienten buchen freie Zellen online. 
 - Ein Mitarbeiter kann manuell Termine hinzufügen/verschieben, Patienten in eine digitale Warteschlange stellen, automatische Erinnerungen und „Recall“-Serien aktivieren. 
 - Urlaube und Vertretungen sind mit ein paar Klicks markiert, und die Patientendaten werden mit dem lokalen Register synchronisiert. Auf diese Weise vermeidet die Klinik doppelte Einträge und Leerlaufzeiten. 
+
 
 
 
