@@ -49,28 +49,22 @@ Wie spielt das in der Praxis zusammen? (typischer Ablauf)
 
 2 | Kernfunktionen der Plattform 
 
-**Modul  Nutzen für die Praxis  Hinweis** 
-
-24/7-Buchung, automatische \
-**Online-Terminmanagement**  [(info.doctolib.de)](https://info.doctolib.de/allgemeinarzt/) 
-
-Erinnerungen, Wartelisten 
-
-**Digitale Rezeption & KI- Telefonassistent** 
-
-**Videosprechstunde & Patientennachrichten** 
-
-**Überweisernetz & Siilo- Messenger** 
-
-Telefon wird entlastet, Anfragen 
-
-[(info.doctolib.de)](https://info.doctolib.de/allgemeinarzt/) werden strukturiert erfasst 
-
-DSGVO-konforme Fernbehandlung, 
-
-Rezept- oder Überweisungswünsche  [(doctolib.zendesk.com)](https://doctolib.zendesk.com/hc/de/articles/23956437661332-Tipps-und-Hinweise-zur-Verwendung-von-E-Rezepten-mit-Doctolib) online 
-
-Sichere Kollaboration mit Kolleg\*innen [(info.doctolib.de)](https://info.doctolib.de/allgemeinarzt/) 
+**Modul**  
+1. Online-Terminmanagement
+2. Digitale Rezeption & KI- Telefonassistent
+3. Videosprechstunde & Patientennachrichten
+4. Überweisernetz & Siilo- Messenger
+ 
+**Nutzen für die Praxis  Hinweis** 
+1. 24/7-Buchung, automatische Erinnerungen, Wartelisten
+2. Telefon wird entlastet, Anfragen werden strukturiert erfasst  
+3.  DSGVO-konforme Fernbehandlung, Rezept- oder Überweisungswünsche
+4.  Sichere Kollaboration mit Kolleg\*innen
+5.  
+[(info.doctolib.de)](https://info.doctolib.de/allgemeinarzt/) 
+[(info.doctolib.de)](https://info.doctolib.de/allgemeinarzt/) 
+[(doctolib.zendesk.com)](https://doctolib.zendesk.com/hc/de/articles/23956437661332-Tipps-und-Hinweise-zur-Verwendung-von-E-Rezepten-mit-Doctolib) online 
+[(info.doctolib.de)](https://info.doctolib.de/allgemeinarzt/) 
 
 3 | Was ist ein PVS (Praxisverwaltungssystem)? 
 
@@ -90,15 +84,14 @@ Bidirektional bedeutet, dass Änderungen an Patientenprofilen automatisch von Do
 
 5 | Telematikinfrastruktur (TI) & TI-Konnektor 
 
-**Baustein  Kurzbeschreibung** 
+**Baustein: - Kurzbeschreibung** 
 
-Hardware-Router, der PVS/Kartenterminals via VPN ans Gesundheitsnetz **TI-Konnektor** anschließt, damit eGK-Daten, E-Rezept, ePA, KIM-Mails usw. sicher 
-
+**TI-Konnektor:** - Hardware-Router, der PVS/Kartenterminals via VPN ans Gesundheitsnetz anschließt, damit eGK-Daten, E-Rezept, ePA, KIM-Mails usw. sicher 
 ausgetauscht werden können. 
 
-**TI-Gateway**  Moderne Alternative ohne eigene Box; VPN-Dienst aus zertifiziertem **(TI 2.0)**  Rechenzentrum. 
+**TI-Gateway:** - Moderne Alternative ohne eigene Box; VPN-Dienst aus zertifiziertem **(TI 2.0)**  Rechenzentrum. 
 
-**eHBA &**  Elektronischer Heilberufsausweis & Praxis-Smartcard für Signatur und **SMC-B**  Authentifizierung. 
+**eHBA & SMC-B**-  Elektronischer Heilberufsausweis & Praxis-Smartcard für Signatur und Authentifizierung. 
 
 6 | Doctolib im TI-Kontext 
 
@@ -125,179 +118,150 @@ Diskussionen gibt es 2025 um die Absicht, **anonymisierte Patientendaten für KI
 
 8 | Praktische Vor- & Nachteile 
 
-**Plus  Minus** 
+**Plus**  
++ Hohe Reichweite für Neupatient\*innen,  weniger Telefonlast  
++ Automatische Terminerinnerungen, weniger No-Shows 
++ TI-fähige Module (KIM, eRezept) 
++ Eigene Konnektoren beschleunigen Datenabgleich mit PVS 
 
-Hohe Reichweite für Neupatient\*innen,  Doppelte Kalenderführung, falls keine weniger Telefonlast  Schnittstelle 
-
-**Plus** 
-
-Automatische Terminerinnerungen, weniger No-Shows 
-
-TI-fähige Module (KIM, eRezept) 
-
-Eigene Konnektoren beschleunigen Datenabgleich mit PVS 
-
-**Minus** 
-
-Externe Buchungsseite – Patient verlässt Praxis-Website 
-
-Kostenpflichtiges Abo-Modell 
-
-Abhängigkeit von Cloud-Dienst & Internetverbindung 
+**Minus** 
+- Doppelte Kalenderführung, falls keine Schnittstelle 
+- Externe Buchungsseite – Patient verlässt Praxis-Website 
+- Kostenpflichtiges Abo-Modell 
+- Abhängigkeit von Cloud-Dienst & Internetverbindung 
 
 Infografik (Darstellung aller Begriffe und ihrer Beziehungen) 
 
 - [Begriffsliste und Zusammenhänge](file:///D:/IHK%20-%20PrÃ¼fungen%20\(AP1,%20AP2\)/AP%202/Projektarbeit%20\(IHK-AbschlussprÃ¼fung\)/Projektarbeit%20-%20Doctolib/Doctolib_Begriffe.docx)
 
-![images](ASPOSE~1.JPE) Aspose.Words.fda18144-91ed-440a-9085-a95e3ddae147.001
+![images](ASPOSE~1.JPE) 
 
-Begriffsliste und Zusammenhänge 
 
-Begriff Doctolib  
+Begriffsliste und Zusammenhänge – in ganzen Sätzen
 
-PVS (Praxisverwaltungssoftware) 
+Doctolib ist eine Online-Plattform, die mit der Praxis-IT zusammenarbeitet, insbesondere mit der Praxisverwaltungssoftware (PVS) und mit Diensten der Telematikinfrastruktur (TI). Patientinnen und Patienten können damit Termine selbst buchen, wodurch Praxen spürbar Telefonzeit sparen. In der Praxis ist die PVS das Herzstück der IT: Sie verwaltet Patientendaten, Termine, Abrechnungen und Befunde und stellt die zentrale Oberfläche für das Behandlungsteam dar. Doctolib nutzt dabei definierte Schnittstellen zur PVS, um Informationen sicher und verlässlich auszutauschen.
 
-TI (Telematikinfrastruktur) 
+Die TI ist das geschützte Gesundheitsnetz in Deutschland, an das PVS-Systeme und Doctolib-Module andocken. Über die TI werden Anwendungen wie das E-Rezept, die elektronische Patientenakte (ePA) und der sichere Nachrichtendienst KIM bereitgestellt. Der Zugang zur TI erfolgt entweder über einen lokalen TI-Konnektor oder über ein TI-Gateway. Der TI-Konnektor ist ein Hardware-Router in der Praxis, der die sichere Verbindung vom lokalen Netzwerk zur TI herstellt. Das TI-Gateway ist die moderne Cloud-Variante, die den physischen Router ersetzt und den TI-Zugang als Dienst bereitstellt.
 
-TI-Konnektor TI-Gateway eRezept 
+Das E-Rezept ist eine TI-Anwendung, die Rezepte digital und rechtssicher ermöglicht. Ärztinnen und Ärzte können E-Rezepte aus der PVS oder — je nach Integration — direkt aus Doctolib heraus signieren und an die TI übermitteln. Die ePA ist die elektronische Patientenakte, in der ärztliche Informationen der Patientinnen und Patienten an einem Ort zusammengeführt werden; eine Anzeige innerhalb einer integrierten Praxissoftware wie „Doctolib Praxis“ ist vorgesehen. Die elektronische Gesundheitskarte (eGK) wird im Kartenterminal gesteckt und liefert die für das Versichertenstammdaten-Management (VSDM) notwendigen Informationen. Das VSDM ist ein Pflichtdienst der TI und prüft beim Einlesen der eGK online, ob die Karte gültig ist und ob die Versichertenstammdaten aktuell sind.
 
-ePA (elektronische Patientenakte) 
+KIM ist der sichere E-Mail-Dienst des Gesundheitswesens. Doctolib-Module können KIM-Postfächer anbinden, sodass Arztbriefe und andere sensible Dokumente statt per Fax verschlüsselt per E-Mail übertragen werden. Für die rechtssichere Nutzung der TI werden zwei Chipkarten benötigt: der elektronische Heilberufsausweis (eHBA) identifiziert die Ärztin oder den Arzt persönlich und ermöglicht rechtssichere qualifizierte elektronische Signaturen; die SMC-B ist die Institutionskarte der Praxis und weist die Betriebsstätte innerhalb der TI aus. Beide Karten werden typischerweise im Zusammenspiel mit dem Kartenterminal und der Praxissoftware genutzt.
 
-eGK (elektronische Gesundheitskarte) 
+Damit unterschiedliche Systeme zusammenarbeiten, kommen Standardschnittstellen wie HL7, FHIR und GDT zum Einsatz. HL7 und FHIR beschreiben strukturierte medizinische Daten und deren Austausch zwischen Anwendungen. GDT ist ein schlanker Standard, über den Praxissoftware und Medizingeräte Aufträge und Befunde austauschen. Durch diese Standards „verstehen“ sich Doctolib, PVS und angeschlossene Geräte, was doppelte Datenerfassung und Fehler reduziert.
 
-VSDM (Versichertenstammdaten‑Ma nagement) 
+„Doctolib Praxis“ ist als Cloud-Praxissoftware konzipiert und bündelt Terminbuchung, medizinische Dokumentation und TI-Funktionen in einer Oberfläche. Das Ziel ist es, Medienbrüche zu vermeiden und Aufgaben wie das Versenden von E-Rezepten, den KIM-Nachrichtenaustausch und die Terminorganisation in einem durchgängigen Workflow zu ermöglichen.
 
-KIM (Kommunikation im Medizinwesen) 
+Der „unabhängige Konnektor zu Medatixx“ beschreibt eine technische Integration zwischen Doctolib und dem PVS-System Medatixx. Eine kleine Windows-Middleware läuft auf jedem Praxis-PC oder auf dem PVS-Server. Diese Middleware kommuniziert lokal mit Medatixx über dessen Datenbank beziehungsweise SDK und verbindet sich gleichzeitig online mit der Doctolib-API. Die Praxis behält dadurch die Datenhoheit, weil kein externer Direktzugriff von außen auf die PVS-Datenbank erforderlich ist.
 
-eHBA (elektronischer Heilberufsausweis) 
+In der Praxis bedeutet das: Stammdaten wie Name, Geburtsdatum, Kontaktdaten und KV-Nummer werden in regelmäßigen Abständen oder bei Bedarf aus Medatixx zu Doctolib synchronisiert. Online gebuchte Termine greifen so stets auf den aktuellen Patientendatensatz zu. Wenn Patientinnen oder Patienten ihre Kontaktdaten im Doctolib-Portal ändern, zeigt Medatixx beim nächsten Aufruf einen Update-Vorschlag an, den das Team mit einem Klick übernehmen kann. Das reduziert Tippfehler und verhindert doppelte Pflege. Darüber hinaus erlaubt ein Kontext-Start aus Doctolib heraus das direkte Öffnen der passenden Patientenakte in Medatixx; die Patient-ID wird übergeben, sodass die Suche entfällt und besonders bei Namensgleichheit keine Zeit verloren geht. Ist in Medatixx eine Akte geöffnet, kann die Mitarbeitende direkt aus dem PVS einen verfügbaren Doctolib-Termin buchen, ohne in die Browsersuche wechseln zu müssen. Diese Integration spart Klicks, vermeidet Medienbrüche und macht die Terminorganisation schneller und sicherer.
 
-SMC-B (Institutionskarte) 
+Zusammenfassend lässt sich sagen: Doctolib organisiert die patientennahe Kommunikation und Terminwelt, die PVS führt die medizinische und organisatorische Kernakte, und die TI liefert die sichere Infrastruktur für Anwendungen wie E-Rezept, ePA und KIM. TI-Konnektor oder TI-Gateway stellen den Zugang her, eHBA und SMC-B sorgen für Identität und Signatur, und Standards wie HL7, FHIR und GDT schaffen die technische Verständigung. Integrierte Lösungen wie „Doctolib Praxis“ und der unabhängige Konnektor zu Medatixx verbinden diese Bausteine zu einem nahtlosen Praxisworkflow
 
-Zusammenhang 
 
-Online-Plattform, die mit Praxis- IT (PVS, TI-Dienste) zusammenspielt 
+3. Wie die Bausteine zusammenspielen --> vom Check-in bis zum Versand
 
-Herzstück jeder Praxis-IT; Doctolib nutzt Schnittstellen zu PVS 
+  1. Patient:in kommt an --> eGK ins Kartenterminal, VSDM läuft automatisch.
+  2. PVS liest/aktualisiert Stammdaten; Doctolib zeigt den Termin im Kalender.
+  3. Ärztin/Arzt erstellt eRezept --> Signatur mit eHBA → Versand über TI.
+  4. Befunde/Kommunikation laufen sicher via KIM; Dokumentation liegt im PVS.
+  5. Online-Termine, Erinnerungen und Wartelisten steuert Doctolib.
 
-Geschütztes Gesundheitsnetz, an das PVS & Doctolib-Module andocken 
 
-Router im Praxisraum, stellt TI‑Verbindung her 
 
-Cloud-Ersatz für den Konnektor (TI 2.0) 
+4. Standards & Schnittstellen: HL7 / GDT / FHIR
 
-TI-Anwendung, lässt sich aus PVS/Doctolib signieren & versenden 
+HL7/FHIR: Austausch klinischer Daten (z. B. Befunde, Ressourcen) zwischen Systemen.
 
-TI-Anwendung; Doctolib plant Anzeige in „Doctolib Praxis“ 
+GDT: Einfache Datei-Schnittstelle zu Medizingeräten (Auftrags-Export, Befund-Import).
+Nutzen: Diese Standards sorgen dafür, dass Doctolib, PVS und Geräte ohne proprietäre Sonderwege miteinander kommunizieren können.
 
-Steckt im Kartenterminal, liefert Daten fürs VSDM 
+5. Doctolib Praxis (Cloud-PVS)
 
-Pflicht‑TI‑Dienst; läuft beim Einlesen der eGK 
+Was es verspricht: Eine integrierte Oberfläche für Terminbuchung, Dokumentation und TI-Funktionen.
+Praktischer Effekt: Weniger Medienbrüche, klare Rollenrechte, direkte Nutzung von TI-Diensten (eRezept, KIM) innerhalb eines Workflows.
 
-TI-Maildienst; Doctolib-Module können KIM-Postfächer anbinden 
+6. „Unabhängiger Konnektor zu Medatixx“ – was passiert technisch?
 
-Persönliche Chipkarte der Ärztin/des Arztes 
+Technische Rolle (Ebene):
+Ein kleines Windows-Programm (Middleware) läuft auf jedem Praxis-PC oder dem PVS-Server. Es spricht lokal mit Medatixx by Medatixx (Datenbank/SDK) und online mit der Doctolib-API.
+Warum nützlich? Die Praxis behält die Datenhoheit – kein externer Direktzugriff auf die PVS-Datenbank.
 
-Chipkarte der Praxis, wird mit eHBA genutzt 
+Was genau passiert – typische Flows
 
-Sinn / Nutzen 
+Datensynchron PVS → Doctolib
+Stammdaten (Name, Geburtsdatum, Kontakt, KV-Nr.) werden periodisch oder on demand zu Doctolib gespiegelt.
+→ Online-Termine nutzen stets den aktuellsten Patientendatensatz.
+Quelle: community.doctolib.de
 
-Patienten können Termine selbst buchen 
+Datensynchron Doctolib → PVS
+Ändert der/die Patient:in z. B. die Mobilnummer im Online-Portal, zeigt Medatixx beim nächsten Aufruf einen Update-Vorschlag an – die MFA klickt nur noch „Speichern“.
+→ Weniger Tippfehler & keine Doppelpflege.
+Quelle: community.doctolib.de
 
-- Praxis spart Telefonzeit 
+Kontext-Start (Sprung aus Doctolib ins PVS)
+Aus Doctolib lässt sich per Klick die passende Patientenakte in Medatixx öffnen (Patient-ID wird übergeben).
+→ Spart Suche im PVS, besonders bei Namensgleichheit.
+Quelle: community.doctolib.de
 
-  Verwaltet Patienten, Termine, Abrechnungen, Befunde 
+Terminbuchung aus dem PVS heraus
+Ist eine Akte in Medatixx geöffnet, kann direkt ein Doctolib-Slot gebucht werden – ohne separaten Browser-Wechsel.
+→ Ein Klick, weniger Kontextwechsel.
 
-  Sichere Übermittlung von E‑Rezept, ePA u. a. 
+Kurzfazit zum Medatixx-Konnektor:
+Saubere bidirektionale Stammdatensynchronisation, Kontext-Start und Direktbuchung reduzieren Fehler und Klickwege – bei voller Kontrolle der Praxis über ihre Daten.
 
-  Bringt das PVS ans Gesundheitsnetz 
+7. Mini-Glossar (ein Satz pro Begriff)
 
-  Kein eigener Router mehr nötig 
+Doctolib: Online-Kalender & Patientenkommunikation mit TI-Anbindung.
 
-  Rezept als QR‑Code statt Papier 
+PVS: Zentrales System für Verwaltung, Abrechnung und Dokumentation.
 
-  Alle Arztinfos der Patient\*innen an einem Ort 
+TI: Sicheres Netz, über das eRezept, ePA, KIM & Co. laufen.
 
-  Versicherungsnachwei s auf Chipkarte 
+TI-Konnektor/TI-Gateway: Lokale Box bzw. Cloud-Variante als TI-Zugang.
 
-  Prüft online, ob die Karte gültig ist 
+eRezept: Digital signiertes Rezept als QR-Code.
 
-  Arztbriefe sicher als E- Mail statt Fax 
+ePA: Elektronische Patientenakte für Befunde/Informationen.
 
-  Digital unterschreiben & TI-Anwendungen nutzen 
+eGK/VSDM: Chipkarte & Online-Prüfung des Versicherungsstatus.
 
-  Weist die Betriebsstätte in der TI aus 
+KIM: Ende-zu-Ende-gesicherte Mails im Medizinwesen.
 
-HL7 / GDT / FHIR 
+eHBA/SMC-B: Persönliche/Institutionelle Chipkarten für Signatur & Nachweis.
 
-Doctolib Praxis (Cloud-PVS) 
+HL7/GDT/FHIR: Interoperabilitäts-Standards, die Systeme verständlich machen.
 
-Standard‑Schnittstellen  Sorgen dafür, dass zwischen Doctolib und diversen  Systeme Daten PVS  verstehen 
+Doctolib Praxis: Cloud-PVS, das mehrere Funktionen in einer UI bündelt.
 
-Eigene All-in-One-Praxissoftware  Bündelt 
 
-(Start Herbst 2025)  Terminbuchung, 
 
-Dokumentation & TI- Funktionen 
+**Was steckt hinter dem „unabhängigen Konnektor zu Medatixx“?**
 
-Was steckt hinter dem „unabhängigen Konnektor zu Medatixx“? 
+Der unabhängige Konnektor zu Medatixx ist eine kleine Windows-Middleware, die auf jedem Praxis-PC oder alternativ auf dem PVS-Server läuft. Diese Middleware kommuniziert lokal mit Medatixx by Medatixx über Datenbank- oder SDK-Schnittstellen und verbindet sich zugleich online mit der Doctolib-API. Dadurch bleibt die Datenhoheit vollständig in der Praxis: Es ist kein externer Direktzugriff auf die PVS-Datenbank nötig, und alle Bewegungen der Daten sind transparent und kontrollierbar.
 
-**Ebene Technische Rolle** 
+Bei der Datensynchronisation von der PVS zu Doctolib werden Stammdaten wie Name, Geburtsdatum, Kontaktdaten und die KV-Nummer entweder regelmäßig in Intervallen oder bei Bedarf sofort an Doctolib übertragen. Auf diese Weise greifen Online-Termine stets auf den aktuellsten Patientendatensatz zu, was Falschzuordnungen und Rückfragen vermeidet (vgl. community.doctolib.de).
 
-**Was genau passiert?** 
+In der Gegenrichtung, also bei der Datensynchronisation von Doctolib zur PVS, fließen Änderungen, die Patient:innen im Doctolib-Portal vornehmen, zurück nach Medatixx. Ändert beispielsweise jemand die Mobilnummer, zeigt Medatixx beim nächsten Öffnen der Akte einen Update-Vorschlag an, den das Praxisteam mit einem Klick übernehmen kann. Das reduziert Tippfehler, verhindert doppelte Pflege und beschleunigt den Alltag deutlich (vgl. community.doctolib.de).
 
-Kleines Windows-Programm (Middleware) läuft auf jedem Praxis-PC oder dem PVS-Server. Es spricht **lokal** mit *Medatixx by Medatixx* (Datenbank / SDK) **und** online mit der Doctolib-API. 
+Der Kontext-Start sorgt für nahtlose Arbeitsabläufe: Aus Doctolib heraus lässt sich mit einem Klick die passende Patientenakte direkt in Medatixx öffnen. Dabei wird die Patient-ID übertragen, sodass keine zeitaufwändige Suche im PVS erforderlich ist. Das ist vor allem bei Namensgleichheiten hilfreich und spart spürbar Zeit (vgl. community.doctolib.de).
 
-**Warum ist das nützlich?** 
+Auch die Terminbuchung aus dem PVS heraus wird vereinfacht. Wenn in Medatixx eine Akte geöffnet ist, kann das Team unmittelbar einen freien Doctolib-Slot buchen. Der Konnektor übergibt dabei alle relevanten IDs, und die Online-Agenda steht ohne zusätzlichen Browser-Wechsel bereit. So genügt ein einziger Klick, um einen Termin sicher zu reservieren (vgl. community.doctolib.de).
 
-Kein fremder Zugriff auf das PVS – die Praxis behält die Datenhoheit. 
+Als Ergänzung bietet die Middleware Zusatzfenster an, mit denen sich aus Medatixx heraus Ansichten wie die Doctolib-„Tagesliste“ oder die „Terminhistorie“ öffnen lassen. Das liefert dem Team einen schnellen Überblick über alle Online-Termine eines Tages oder die bisherigen Termine eines konkreten Patienten, ohne zwischen Programmen springen zu müssen (vgl. community.doctolib.de).
 
-- Stammdaten (Name, Geburts-
+Kurz gesagt: Die Middleware verbindet Medatixx und Doctolib sicher und bidirektional, hält Stammdaten automatisch konsistent, ermöglicht den direkten Sprung zwischen den Systemen, vereinfacht die Terminbuchung und liefert Zusatzansichten für den Alltag – und das alles bei voller Datenhoheit der Praxis.
 
-**Datensynchron (Patient** datum, Kontakt, KV-Nr.) werden 
 
-**→ Doctolib)**  periodisch oder „On Demand“ zu 
+8. Praxisnutzen auf einen Blick
 
-Doctolib gespiegelt. 
+- Telefon entlasten: Online-Buchung & automatische Erinnerungen.
+- Datenqualität erhöhen: Bidirektionaler Sync verhindert Dubletten.
+- Sicher kommunizieren: KIM statt Fax, eHBA-Signaturen für Rechtsgültigkeit.
+- Workflows beschleunigen: Kontext-Start & Direktbuchung sparen Zeit.
+- Zukunftssicher: Standards (HL7/FHIR/GDT) + TI-Gateway-Option.
 
-Sorgt dafür, dass Online- Termine immer den aktuellsten Patienten- datensatz nutzen. [(community.doctolib.de)](https://community.doctolib.de/t/neuer-unabhaengiger-konnektor-zu-medatixx-by-medatixx-verfuegbar/38753) 
 
-Ändert der Patient z. B. seine 
-
-Mobilnummer im Online-Portal, 
-
-Vermeidet Tippfehler & **Datensynchron**  zeigt Medatixx beim nächsten 
-
-Doppelpflege. **(Doctolib → PVS)**  Aufruf einen **Update-Vorschlag** an 
-
-[(community.doctolib.de)](https://community.doctolib.de/t/neuer-unabhaengiger-konnektor-zu-medatixx-by-medatixx-verfuegbar/38753) 
-
-- die MFA klickt nur noch 
-
-  „Speichern“. 
-
-Aus Doctolib lässt sich per Klick 
-
-**die passende Patientenakte in Kontext-Start** 
-
-**Medatixx öffnen** (Patient-ID wird übergeben). 
-
-Spart Suche im PVS, besonders bei gleichen Namen. [(community.doctolib.de)](https://community.doctolib.de/t/neuer-unabhaengiger-konnektor-zu-medatixx-by-medatixx-verfuegbar/38753) 
-
-Wenn die MFA in Medatixx eine 
-
-Akte geöffnet hat, kann sie **direkt**  Nur ein Klick, kein Wechsel **Terminbuchung aus** 
-
-**dort** einen Doctolib-Slot buchen;  zur Browsersuche. 
-
-**dem PVS** 
-
-der Konnektor übergibt alle IDs und [(community.doctolib.de)](https://community.doctolib.de/t/neuer-unabhaengiger-konnektor-zu-medatixx-by-medatixx-verfuegbar/38753) zeigt sofort die Online-Agenda. 
-
-„Tagesliste“ oder „Terminhistorie“ **Zusatzfenster**  von Doctolib lässt sich aus 
-
-Medatixx heraus anzeigen. 
-
-Schneller Überblick über alle Online-Termine eines Tages oder Patienten. [(community.doctolib.de)](https://community.doctolib.de/t/neuer-unabhaengiger-konnektor-zu-medatixx-by-medatixx-verfuegbar/38753) 
 
 Installation & Voraussetzungen in 5 Schritten 
 
@@ -307,33 +271,31 @@ Installation & Voraussetzungen in 5 Schritten
 1. **Initiale ID-Zuordnung**: einmaliges Matching aller bestehenden Patientennummern zwischen Medatixx und Doctolib. 
 1. **Kurzschulung**: Wie starte ich Buchung/Listen, wie bestätige ich Update-Vorschläge? 
 
-**Kosten:** Der Connector selbst ist seit 12/2023 kostenfrei; ggf. verlangt Medatixx für die Aktivierung der lokalen Schnittstelle (X-API) eine kleine Lizenzgebühr.[ community.doctolib.de ](https://community.doctolib.de/t/entdecken-sie-unsere-konnektoren-und-erleichtern-sie-ihre-arbeitsablaeufe/77154?utm_source=chatgpt.com)
+**Kosten:** 
+Der Connector selbst ist seit 12/2023 kostenfrei; ggf. verlangt Medatixx für die Aktivierung der lokalen Schnittstelle (X-API) eine kleine Lizenzgebühr.
+[ community.doctolib.de ](https://community.doctolib.de/t/entdecken-sie-unsere-konnektoren-und-erleichtern-sie-ihre-arbeitsablaeufe/77154?utm_source=chatgpt.com)
+
+
 
 **Begriff  Was ist das?  Wozu dient es?** 
 
-Ein kleines Programm, das unter 
+Dienst (Service):
+Ein Dienst ist ein kleines Programm, das unter Windows im Hintergrund läuft, automatisch mit dem Start des PCs hochfährt und kein eigenes Fenster besitzt. Es arbeitet dauerhaft weiter, auch wenn niemand angemeldet ist.
+Der Dienst hält die Verbindung zwischen dem Praxis-PC und Doctolib stabil am Laufen, ohne dass sich jemand einloggen muss. Dadurch bleiben Synchronisationen, Signaturen oder Terminabrufe zuverlässig aktiv, selbst nach einem Neustart oder wenn gerade niemand am Rechner sitzt.
 
-Windows im Hintergrund läuft  Hält die Verbindung zwischen Praxis-PC und **Dienst** 
+Tray-App:
+Die Tray-App ist eine sehr kleine Zusatz-Anwendung, deren Symbol unten rechts im System-Tray neben der Uhr angezeigt wird.
+Sie dient als sichtbare Bedienhilfe für das Team: Die Tray-App zeigt den aktuellen Status des Connectors (grün bedeutet „alles in Ordnung“, rot weist auf einen Fehler hin) und bietet per Rechtsklick praktische Funktionen wie „Neu synchronisieren“ oder „Log-Datei öffnen“. So lassen sich Störungen schnell erkennen und Routineaktionen unmittelbar auslösen.
 
-und **automatisch startet**,  Doctolib am Laufen, ohne dass jemand **(Service)** 
+API-Token:
+Ein API-Token ist eine lange, zufällig erzeugte Zeichenfolge (zum Beispiel „d4f9…e8c2“), die wie ein digitaler Schlüssel funktioniert und den Zugriff auf die Doctolib-Schnittstelle (API) erlaubt.
+Das Token weist den Connector eindeutig gegenüber Doctolib aus, ohne dass jedes Mal Benutzername und Passwort übertragen werden müssen – vergleichbar mit einem sicheren Zugangstoken in Banking-Apps. Das erhöht die Sicherheit und vereinfacht die automatische Kommunikation zwischen Praxis-System und Doctolib.
 
-sobald der PC hochfährt. Es hat  eingeloggt sein muss. 
+Kurzfazit:
+Der Dienst sorgt im Hintergrund für den kontinuierlichen Betrieb und die Autostart-Verfügbarkeit.
+Die Tray-App macht den technischen Zustand sichtbar und ermöglicht schnelle Aktionen mit zwei Klicks.
+Das API-Token stellt die eindeutige, sichere Identität des Connectors gegenüber Doctolib her und erlaubt automatisierte, passwortlose Anfragen.
 
-kein eigenes Fenster. 
-
-Winzige Zusatz-Anwendung,  Zeigt den Status des Connectors (grün = OK, 
-
-deren Symbol (Icon) unten  rot = Fehler) und bietet per Rechtsklick **Tray-App** 
-
-rechts im **System-Tray** neben  Funktionen wie „Neu synchronisieren“ oder der Uhr erscheint.  „Log-Datei öffnen“. 
-
-Eine lange, zufällig erzeugte  Damit weist sich der Connector eindeutig Zeichenfolge (z. B.  gegenüber Doctolib aus, ohne jedes Mal 
-
-**API-**
-
-„d4f9…e8c2“). Sie funktioniert  Benutzername/Passwort senden zu müssen – **Token** 
-
-wie ein **digitaler Schlüssel** zur  ähnlich wie ein Zugangstoken bei Online- Schnittstelle (API) von Doctolib.  Banking-Apps. 
 
 **Grenzen & Best Practices** 
 
@@ -374,6 +336,7 @@ Wenn Entwickler\*innen einen Connector oder ein Analyse-Tool rund um Doctolib ba
 - In ihm werden Terminarten und Öffnungszeiten im Voraus festgelegt; Patienten buchen freie Zellen online. 
 - Ein Mitarbeiter kann manuell Termine hinzufügen/verschieben, Patienten in eine digitale Warteschlange stellen, automatische Erinnerungen und „Recall“-Serien aktivieren. 
 - Urlaube und Vertretungen sind mit ein paar Klicks markiert, und die Patientendaten werden mit dem lokalen Register synchronisiert. Auf diese Weise vermeidet die Klinik doppelte Einträge und Leerlaufzeiten. 
+
 
 
 
