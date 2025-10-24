@@ -137,7 +137,7 @@ Infografik (Darstellung aller Begriffe und ihrer Beziehungen)
 ![images](images/ASPOSE~1.JPE) 
 
 
-Begriffsliste und Zusammenhänge – in ganzen Sätzen
+Begriffsliste und Zusammenhänge 
 
 Doctolib ist eine Online-Plattform, die mit der Praxis-IT zusammenarbeitet, insbesondere mit der Praxisverwaltungssoftware (PVS) und mit Diensten der Telematikinfrastruktur (TI). Patientinnen und Patienten können damit Termine selbst buchen, wodurch Praxen spürbar Telefonzeit sparen. In der Praxis ist die PVS das Herzstück der IT: Sie verwaltet Patientendaten, Termine, Abrechnungen und Befunde und stellt die zentrale Oberfläche für das Behandlungsteam dar. Doctolib nutzt dabei definierte Schnittstellen zur PVS, um Informationen sicher und verlässlich auszutauschen.
 
@@ -336,6 +336,7 @@ Wenn Entwickler\*innen einen Connector oder ein Analyse-Tool rund um Doctolib ba
 - In ihm werden Terminarten und Öffnungszeiten im Voraus festgelegt; Patienten buchen freie Zellen online. 
 - Ein Mitarbeiter kann manuell Termine hinzufügen/verschieben, Patienten in eine digitale Warteschlange stellen, automatische Erinnerungen und „Recall“-Serien aktivieren. 
 - Urlaube und Vertretungen sind mit ein paar Klicks markiert, und die Patientendaten werden mit dem lokalen Register synchronisiert. Auf diese Weise vermeidet die Klinik doppelte Einträge und Leerlaufzeiten. 
+
 
 
 
