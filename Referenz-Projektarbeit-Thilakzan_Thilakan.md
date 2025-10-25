@@ -1,4 +1,4 @@
-﻿![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.001.png)
+﻿![](images/00_Cymos_Logo.png)
 
 **Abschlussprüfung Sommer 2025** \
 **Fachinformatiker/- in Systemintegration**       **Dokumentation zur betrieblichen Projektarbeit** 
@@ -20,12 +20,14 @@ Inhaltsverzeichnis
 
 [1  Projektbeschreibung ........................................................................... 3 ](#_page2_x68.00_y70.92)
 
-1. [Ist – Zustand .............................................................................. 3 ](#_page2_x68.00_y103.92)
-1. [Soll – Zustand ............................................................................. 3 ](#_page2_x68.00_y317.92)
+1.1 [Ist – Zustand .............................................................................. 3 ](#_page2_x68.00_y103.92)
+1.2 [Soll – Zustand ............................................................................. 3 ](#_page2_x68.00_y317.92)
 
 [2  Projektplanung .................................................................................. 4 ](#_page3_x68.00_y70.92)
 
-[2.1  Zeitplanung ................................................................................ 4 ](#_page3_x68.00_y96.92)[3  Datenschutz, IT-Sicherheit und rechtliche Anforderungen ......................... 4 ](#_page3_x68.00_y418.92)
+[2.1  Zeitplanung ................................................................................ 4 ](#_page3_x68.00_y96.92)
+
+[3  Datenschutz, IT-Sicherheit und rechtliche Anforderungen ......................... 4 ](#_page3_x68.00_y418.92)
 
 1. [Datenschutz und DSGVO-Konformität ............................................. 4 ](#_page3_x68.00_y456.92)
 1. [Zertifizierungen & gesetzliche Anforderungen (BSI, KBV) ................... 5 ](#_page4_x68.00_y119.92)
@@ -156,29 +158,29 @@ Dazu gehören u. a. Rechte auf Auskunft, Berichtigung, Löschung und Daten- ü
 
 1. Anlegen der Netzwerkobjekte: Für jeden Arbeitsplatz, der auf Doctolib zugreifen soll, wurde ein eigenes Netzwerkobjekt erstellt. So konnte der Zugriff gezielt auf bestimmte Geräte beschränkt werden. 
 
-   ![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.002.jpeg)
+   ![](images/01_sec-01.png)
 
 2. Erstellen einer Netzwerkgruppe: Die angelegten Netzwerkobjekte wur- den zu einer Netzwerkgruppe zusammengefasst, um Regeln gruppenba- siert anwenden zu können.  
 
-   ![ref1]
+   ![](images/02_sec-02.png)
 
 3. Whitelist-Ruleset anlegen: Alle relevanten Doctolib-Domains wurden in einem eigenen Whitelist-Ruleset hinterlegt, das ausschließlich den Zu- griff auf diese Adressen erlaubt. 
 
-   ![ref1]
+   ![](images/03_sec-03.png)
 
 4. Zuweisung des Rulesets: Das Whitelist-Ruleset wurde der Netzwerk- gruppe zugewiesen, wodurch nur die vorgesehenen Arbeitsplätze Zugriff auf die Plattform erhalten. 
 
-   ![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.004.png)
+   ![](images/04_sec-04.png)
 
 5. Abschließende Kontrolle: Zum Abschluss wurde die gesamte Webfilter- Konfiguration überprüft. In der Übersicht sind alle Netzwerkobjekte, die Gruppenstruktur sowie das zugewiesene Ruleset klar ersichtlich. Das er- möglicht eine schnelle Kontrolle und einfache Anpassung bei Bedarf. 
 
-   ![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.005.jpeg)
+   ![](images/05_sec-05.png)
 
    Eine vollständige tabellarische Auflistung aller freizugebenden Domains ist im Anhang unter Punkt 6.2 enthalten 
 
 2. Einrichtung<a name="_page7_x68.00_y523.92"></a> der Testumgebung und Installation der Anwendungen Zur Vorbereitung der Migration und für erste Tests wurde eine Windows 11- VM auf einem Hyper-V-Host eingerichtet. Diese Testumgebung diente dazu, den Export und Import von Patientendaten zu simulieren, die Netzwerkkon- figuration zu prüfen und die Anbindung von Doctolib risikolos zu testen – inklusive Webfilter-Anpassungen an der Securepoint-Firewall. Die virtuelle Maschine erhielt eine statische IP-Adresse und wurde mit den benötigten Anwendungen ausgestattet: Doctolib für das Terminmanagement und Me- dical Office als bestehendes Arztinformationssystem (AIS) der Praxis. Bei der Installation von Medical Office wurde ein fester Arbeitsplatzname verge- ben, um standortspezifische Einstellungen korrekt zu laden. 
 
-   ![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.006.jpeg)
+   ![](images/06_mo-06.png)
 
    ` `Die Doctolib-Anwendung wurde standardmäßig eingerichtet. Nach der Mig- ration der Patientendaten wird zusätzlich der Doctolib-Konnektor benötigt, um eine automatische Patientenübernahme zwischen Medical Office und Doctolib zu ermöglichen. 
 
@@ -188,31 +190,31 @@ Dazu gehören u. a. Rechte auf Auskunft, Berichtigung, Löschung und Daten- ü
 
    Benutzer und Zugriffsrechte: Über den Bereich „Meine Praxis > Benutzer- konten & Zugriffsrechte“ wurden alle notwendigen Benutzerkonten erstellt und mit passenden Rollen wie Verwaltung, Ärzt:innen oder Praxismana- ger:in Versehen. Dadurch wurde sichergestellt, dass jede Person nur Zugriff auf die für sie relevanten Funktionen erhält. 
 
-   ![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.007.jpeg)
+   ![](images/07_doc-07.png)
 
    Kalender und Ressourcen: Anschließend wurden verschiedene Kalenderar- ten erstellt – z. B. für Ärzt:innen, Behandlungsräume oder Geräte – und den jeweiligen Fachbereichen sowie Benutzergruppen zugeordnet. Diese klare Struktur ermöglicht eine differenzierte und übersichtliche Verwaltung von Terminen und Ressourcen. 
 
-   ![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.008.png)
+   ![](images/08_doc-08.png)
 
    Terminarten und Kategorisierung: Die Terminarten wurden praxisindividuell konfiguriert. Dazu gehören Einstellungen wie Name, Dauer, Zielgruppe, Bu- chungsfristen,  Absagefristen  und  automatische  Benachrichtigungen.  Zu- sätzlich wurden sie in Kategorien wie „Beratung“ oder „Folgetermine“ grup- piert, um die Übersichtlichkeit für Patienten und Personal zu verbessern. 
 
-   ![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.009.jpeg)
+   ![](images/09_doc-09.png)
 
    Interne Hinweise und Buchungshinweise: Für das Praxispersonal wurden in- terne Hinweise zu bestimmten Terminarten hinterlegt, die z. B. an Vorberei- tungen oder besondere Abläufe erinnern. Parallel dazu wurden patienten- seitige Hinweise aktiviert, die vor Abschluss der Onlinebuchung angezeigt werden – z. B. zu mitzubringenden Unterlagen oder Ausfallregelungen. 
 
-   ![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.010.png)
+   ![](images/10_doc-10.png)
 
-   ![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.011.jpeg)
+   ![](images/11_doc-11.png)
 
    Abfragen und individuelle Buchungsfelder: Zur strukturierten Erfassung re- levanter Informationen wurden Abfragen (z. B. Neu- oder Bestandspati- ent:in) und individuelle Buchungsfelder (z. B. Kontaktdaten, Versicherungs- status) eingebunden. Diese Maßnahmen ermöglichen eine frühzeitige Vor- bereitung und verbessern die Datenqualität. 
 
-   ![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.012.png)
+   ![](images/12_doc-12.png)
 
    Digitale Dokumente: Zur Entlastung der Praxis und besseren Vorbereitung der Patienten wurden Formulare wie Anamnesebögen oder Aufklärungsun- terlagen digital über Doctolib bereitgestellt. Patient:innen erhalten diese au- tomatisch mit der Terminbestätigung und können sie im Vorfeld ausfüllen. 
 
    Nachrichten und Terminmitteilungen: Die Nachrichtenfunktion wurde konfi- guriert, aber noch nicht freigeschaltet. Sie soll künftig den strukturierten Austausch zwischen Patienten und Praxis ermöglichen. Zudem wurden au- tomatisierte Terminmitteilungen per E-Mail und SMS aktiviert, um die Ter- mintreue zu verbessern und Ausfälle zu minimieren. 
 
-   ![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.013.png)
+   ![](images/13_doc-13.png)
 
 4. Datenmigration:<a name="_page11_x68.00_y70.92"></a> Export aus Medical Office und Import in Doctolib 
 
@@ -220,13 +222,13 @@ Nachdem Im Rahmen der Datenmigration wurden die vorhandenen Patien- tendaten aus
 
 Export der Patientendaten: Auf der zuvor eingerichteten Windows 11-VM wurde mithilfe des integrierten Tools MED95BDT ein vollständiger Datenex- port im standardisierten BDT-Format durchgeführt. Dabei wurden alle Pati- enten mit Nummern im Bereich von 1 bis 1122409 und im Zeitraum vom 01.01.2024 bis 21.04.2025 erfasst. Exportiert wurden die Stammdaten (Pa- tienten-ID,  Vorname,  Nachname,  Geburtsdatum).  Als  Exportverzeichnis wurde C:\\_CYMOS\MoExport definiert. Nach Start des Vorgangs bestätigte eine Statusmeldung die laufende Übertragung. Die exportierten Daten lagen danach strukturiert im Zielverzeichnis für den Import bereit. 
 
-![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.014.jpeg)
+![](images/14_mo-14.png)
 
 Import in Doctolib: Der Import erfolgte über das Administrationsportal von Doctolib. Dort wurde der Dateityp „Patienten“ ausgewählt und die zuvor er- stellte Datei MoExport\_PatStamm.bdt hochgeladen. Als exportierendes Sys- tem wurde Medical Office angegeben, damit das Format korrekt erkannt und verarbeitet  werden  konnte.  Nach  dem  Upload  wurde  der  Import  über 
 
 „Hochladen“ gestartet. Optional konnten im Kommentarfeld Informationen für das interne Team hinterlegt werden.  
 
-![](Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.015.jpeg)
+![](images/15_doc-15.png)
 
 Diese Migration bildete die Grundlage für den erfolgreichen Abgleich der Pa- tientendaten zwischen dem Arztinformationssystem (AIS) Medical Office und der Doctolib-Plattform. 
 
@@ -433,3 +435,4 @@ Technische Begriffe und Standards/Zertifizierungen
 Seite **19** von **19**
 
 [ref1]: Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.003.png
+
