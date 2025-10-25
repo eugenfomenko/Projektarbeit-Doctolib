@@ -21,6 +21,7 @@ Inhaltsverzeichnis
 [1  Projektbeschreibung ........................................................................... 3 ](#_page2_x68.00_y70.92)
 
 1.1 [Ist – Zustand .............................................................................. 3 ](#_page2_x68.00_y103.92)
+
 1.2 [Soll – Zustand ............................................................................. 3 ](#_page2_x68.00_y317.92)
 
 [2  Projektplanung .................................................................................. 4 ](#_page3_x68.00_y70.92)
@@ -29,38 +30,53 @@ Inhaltsverzeichnis
 
 [3  Datenschutz, IT-Sicherheit und rechtliche Anforderungen ......................... 4 ](#_page3_x68.00_y418.92)
 
-1. [Datenschutz und DSGVO-Konformität ............................................. 4 ](#_page3_x68.00_y456.92)
-1. [Zertifizierungen & gesetzliche Anforderungen (BSI, KBV) ................... 5 ](#_page4_x68.00_y119.92)
+3.1 [Datenschutz und DSGVO-Konformität ............................................. 4 ](#_page3_x68.00_y456.92)
+
+3.2 [Zertifizierungen & gesetzliche Anforderungen (BSI, KBV) ................... 5 ](#_page4_x68.00_y119.92)
 
 [4  Projektdurchführung ........................................................................... 5 ](#_page4_x68.00_y668.92)
 
-1. [Vorbereitung und Abstimmung mit der Praxis ................................... 5 ](#_page4_x68.00_y697.92)
-1. [Technische Planung und Integration in die Praxisinfrastruktur ............. 6 ](#_page5_x68.00_y279.92)
-1. [Einrichten der Geräte und Dienste .................................................. 6 ](#_page5_x68.00_y431.92)
-1. [Firewall-Konfiguration & Webfilter................................................ 6 ](#_page5_x68.00_y455.92)
-1. [Einrichtung der Testumgebung und Installation der Anwendungen .... 8 ](#_page7_x68.00_y523.92)
-1. [Einrichtung und Konfiguration in Doctolib...................................... 9 ](#_page8_x68.00_y368.92)
-1. [Datenmigration: Export aus Medical Office und Import in Doctolib .. 12 ](#_page11_x68.00_y70.92)
-4. [Rollout der Doctolib-Software im Praxisnetzwerk ............................. 13 ](#_page12_x68.00_y360.92)
+4.1 [Vorbereitung und Abstimmung mit der Praxis ................................... 5 ](#_page4_x68.00_y697.92)
+
+4.2 [Technische Planung und Integration in die Praxisinfrastruktur ............. 6 ](#_page5_x68.00_y279.92)
+
+4.3 [Einrichten der Geräte und Dienste .................................................. 6 ](#_page5_x68.00_y431.92)
+
+4.3.1 [Firewall-Konfiguration & Webfilter................................................ 6 ](#_page5_x68.00_y455.92)
+
+4.3.2 [Einrichtung der Testumgebung und Installation der Anwendungen .... 8 ](#_page7_x68.00_y523.92)
+
+4.3.3 [Einrichtung und Konfiguration in Doctolib...................................... 9 ](#_page8_x68.00_y368.92)
+
+4.3.4 [Datenmigration: Export aus Medical Office und Import in Doctolib .. 12 ](#_page11_x68.00_y70.92)
+
+4.4 [Rollout der Doctolib-Software im Praxisnetzwerk ............................. 13 ](#_page12_x68.00_y360.92)
 
 [4.4.1  Softwareverteilung mit automatischer Konnektor-Einrichtung ......... 13 ](#_page12_x68.00_y384.92)
 
-5. [Abschlussphase: Tests, Schulung und Live-Betrieb .......................... 13 ](#_page12_x68.00_y624.92)
-1. [Testphase und Ergebnis ........................................................... 13 ](#_page12_x68.00_y648.92)
-1. [Erstellung einer praxisindividuellen Anleitung .............................. 14 ](#_page13_x68.00_y125.92)
-1. [Go-Live mit Vor-Ort-Betreuung und Schulung .............................. 14 ](#_page13_x68.00_y457.92)
+4.5 [Abschlussphase: Tests, Schulung und Live-Betrieb .......................... 13 ](#_page12_x68.00_y624.92)
+   
+4.5.1 [Testphase und Ergebnis ........................................................... 13 ](#_page12_x68.00_y648.92)
+
+4.5.2 [Erstellung einer praxisindividuellen Anleitung .............................. 14 ](#_page13_x68.00_y125.92)
+
+4.5.3 [Go-Live mit Vor-Ort-Betreuung und Schulung .............................. 14 ](#_page13_x68.00_y457.92)
 
 [5  Projektabschluss .............................................................................. 15 ](#_page14_x68.00_y70.92)
 
-1. [Auswertung der Zeitplanung ........................................................ 15 ](#_page14_x68.00_y96.92)
-1. [Nutzwertanalyse: Doctolib vs. physikalischer Praxisplaner ................ 15 ](#_page14_x68.00_y458.92)
-1. [Fazit ........................................................................................ 16 ](#_page15_x68.00_y199.92)
+5.1 [Auswertung der Zeitplanung ........................................................ 15 ](#_page14_x68.00_y96.92)
+
+5.2 [Nutzwertanalyse: Doctolib vs. physikalischer Praxisplaner ................ 15 ](#_page14_x68.00_y458.92)
+
+5.3 [Fazit ........................................................................................ 16 ](#_page15_x68.00_y199.92)
 
 [6  Anhang .......................................................................................... 17 ](#_page16_x68.00_y70.92)
 
-1. [Glossar .................................................................................... 17 ](#_page16_x68.00_y96.92)
-1. [Übersicht der freizugebenden Domains für Doctolib ......................... 17 ](#_page16_x68.00_y492.92)
-1. [Quellenverzeichnis ..................................................................... 19 ](#_page18_x68.00_y70.92)
+6.1 [Glossar .................................................................................... 17 ](#_page16_x68.00_y96.92)
+
+6.2 [Übersicht der freizugebenden Domains für Doctolib ......................... 17 ](#_page16_x68.00_y492.92)
+ 
+6.3 [Quellenverzeichnis ..................................................................... 19 ](#_page18_x68.00_y70.92)
 
 Seite  von 19 
 
@@ -435,4 +451,5 @@ Technische Begriffe und Standards/Zertifizierungen
 Seite **19** von **19**
 
 [ref1]: Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.003.png
+
 
