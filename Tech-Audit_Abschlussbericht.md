@@ -2,11 +2,11 @@
 
 **Praxis:** SINA Privatklinik GmbH, Otto-Wels-Straße 5, 63179 Obertshausen **Datum:** 15.10.2025 
 
-**Erstellt durch:** CYMOS Medizin IT (Techniker: Dominik Gründel) ![](Aspose.Words.6b4851c8-edfa-40ba-91d1-f584fc82db31.001.png)
+**Erstellt durch:** CYMOS Medizin IT (Techniker: Dominik Gründel) ![](Aspose.Words.5a798288-9014-4b08-ac87-ca9d01121d7e.001.png)
 
 1. **Hintergrund** 
 
-Bei einem Vor-Ort-Termin wurde die aktuelle IT- und Geräteausstattung geprüft, um festzustellen, ob die technischen Anforderungen für den Einsatz des Doctolib Praxisverwaltungssystems erfüllt werden. ![](Aspose.Words.6b4851c8-edfa-40ba-91d1-f584fc82db31.002.png)
+Bei einem Vor-Ort-Termin wurde die aktuelle IT- und Geräteausstattung geprüft, um festzustellen, ob die technischen Anforderungen für den Einsatz des Doctolib Praxisverwaltungssystems erfüllt werden. ![](Aspose.Words.5a798288-9014-4b08-ac87-ca9d01121d7e.002.png)
 
 2. **Prüfungsergebnisse** 
 
@@ -41,7 +41,7 @@ Bei einem Vor-Ort-Termin wurde die aktuelle IT- und Geräteausstattung geprüft,
 
 **Zusätzliche Hinweise** 
 
-- Für die Patient-Arzt-KI-Funktion in Doctolib wird in jedem Behandlungszimmer ein Mikrofon benötigt. ![](Aspose.Words.6b4851c8-edfa-40ba-91d1-f584fc82db31.003.png)
+- Für die Patient-Arzt-KI-Funktion in Doctolib wird in jedem Behandlungszimmer ein Mikrofon benötigt. ![](Aspose.Words.5a798288-9014-4b08-ac87-ca9d01121d7e.003.png)
 3. **Zusammenfassung** 
 
 Die technische Ausstattung ist für die Einführung von Doctolib PVS nur bedingt geeignet. 
