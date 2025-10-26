@@ -195,13 +195,13 @@ Für den sicheren Betrieb von Doctolib wurde die Securepoint-Firewall ent- sprec
 
    Eine vollständige tabellarische Auflistung aller freizugebenden Domains ist im Anhang unter Punkt 6.2 enthalten 
 
-2. Einrichtung<a name="_page7_x68.00_y523.92"></a> der Testumgebung und Installation der Anwendungen Zur Vorbereitung der Migration und für erste Tests wurde eine Windows 11- VM auf einem Hyper-V-Host eingerichtet. Diese Testumgebung diente dazu, den Export und Import von Patientendaten zu simulieren, die Netzwerkkon- figuration zu prüfen und die Anbindung von Doctolib risikolos zu testen – inklusive Webfilter-Anpassungen an der Securepoint-Firewall. Die virtuelle Maschine erhielt eine statische IP-Adresse und wurde mit den benötigten Anwendungen ausgestattet: Doctolib für das Terminmanagement und Me- dical Office als bestehendes Arztinformationssystem (AIS) der Praxis. Bei der Installation von Medical Office wurde ein fester Arbeitsplatzname verge- ben, um standortspezifische Einstellungen korrekt zu laden. 
+4.3.2 Einrichtung<a name="_page7_x68.00_y523.92"></a> der Testumgebung und Installation der Anwendungen Zur Vorbereitung der Migration und für erste Tests wurde eine Windows 11- VM auf einem Hyper-V-Host eingerichtet. Diese Testumgebung diente dazu, den Export und Import von Patientendaten zu simulieren, die Netzwerkkon- figuration zu prüfen und die Anbindung von Doctolib risikolos zu testen – inklusive Webfilter-Anpassungen an der Securepoint-Firewall. Die virtuelle Maschine erhielt eine statische IP-Adresse und wurde mit den benötigten Anwendungen ausgestattet: Doctolib für das Terminmanagement und Me- dical Office als bestehendes Arztinformationssystem (AIS) der Praxis. Bei der Installation von Medical Office wurde ein fester Arbeitsplatzname verge- ben, um standortspezifische Einstellungen korrekt zu laden. 
 
    ![](images/06_mo-06.png)
 
    ` `Die Doctolib-Anwendung wurde standardmäßig eingerichtet. Nach der Mig- ration der Patientendaten wird zusätzlich der Doctolib-Konnektor benötigt, um eine automatische Patientenübernahme zwischen Medical Office und Doctolib zu ermöglichen. 
 
-3. Einrichtung<a name="_page8_x68.00_y368.92"></a> und Konfiguration in Doctolib 
+4.3.3 Einrichtung<a name="_page8_x68.00_y368.92"></a> und Konfiguration in Doctolib 
 
    Nach erfolgreicher technischer Anbindung wurde die Doctolib-Plattform um- fassend an die organisatorischen und medizinischen Anforderungen der Pra- xis angepasst. In enger Abstimmung mit der Praxisleitung und der Praxis- managerin wurden alle relevanten Funktionen eingerichtet und die Benut- zeroberfläche so konfiguriert, dass sie den täglichen Arbeitsabläufen optimal entspricht. 
 
@@ -233,7 +233,7 @@ Für den sicheren Betrieb von Doctolib wurde die Securepoint-Firewall ent- sprec
 
    ![](images/13_doc-13.png)
 
-4. Datenmigration:<a name="_page11_x68.00_y70.92"></a> Export aus Medical Office und Import in Doctolib 
+4.3.4 Datenmigration:<a name="_page11_x68.00_y70.92"></a> Export aus Medical Office und Import in Doctolib 
 
 Nachdem Im Rahmen der Datenmigration wurden die vorhandenen Patien- tendaten aus dem bestehenden Arztinformationssystem Medical Office expor- tiert und anschließend in Doctolib importiert. 
 
@@ -249,9 +249,11 @@ Import in Doctolib: Der Import erfolgte über das Administrationsportal von Doct
 
 Diese Migration bildete die Grundlage für den erfolgreichen Abgleich der Pa- tientendaten zwischen dem Arztinformationssystem (AIS) Medical Office und der Doctolib-Plattform. 
 
-4. Rollout<a name="_page12_x68.00_y360.92"></a> der Doctolib-Software im Praxisnetzwerk 
+4.4 Rollout<a name="_page12_x68.00_y360.92"></a> der Doctolib-Software im Praxisnetzwerk 
 
-<a name="_page12_x68.00_y384.92"></a>4.4.1 Softwareverteilung mit automatischer Konnektor-Einrichtung 
+<a name="_page12_x68.00_y384.92"></a>
+
+4.4.1 Softwareverteilung mit automatischer Konnektor-Einrichtung 
 
 Die Doctolib-Desktop-Anwendung wurde nach der Testphase über den vor- handenen Remote-Agent zentral auf allen Praxis-PCs verteilt. 
 
@@ -259,14 +261,15 @@ Die automatisierte Installation lief größtenteils reibungslos ab, an einzelnen
 
 Da der Datenimport bereits erfolgreich abgeschlossen war, wird bei der In- stallation nun automatisch der Medical Office-Konnektor mit eingerichtet, um die direkte Anbindung an das AIS sicherzustellen. 
 
-5. Abschlussphase:<a name="_page12_x68.00_y624.92"></a> Tests, Schulung und Live-Betrieb 
-1. Testphase<a name="_page12_x68.00_y648.92"></a> und Ergebnis 
+4.5 Abschlussphase:<a name="_page12_x68.00_y624.92"></a> Tests, Schulung und Live-Betrieb 
+
+4.5.1 Testphase<a name="_page12_x68.00_y648.92"></a> und Ergebnis 
 
    Zur Überprüfung der Systemstabilität und Funktionalität wurden in Doctolib zunächst Testtermine angelegt, verschoben und storniert. Dabei wurde ins- besondere die Kommunikation zwischen Doctolib und dem angebundenen 
 
    Arztinformationssystem Medical Office überprüft. Auch die automatische Synchronisierung der Daten wurde getestet. 
 
-2. Erstellung<a name="_page13_x68.00_y125.92"></a> einer praxisindividuellen Anleitung 
+4.5.2 Erstellung<a name="_page13_x68.00_y125.92"></a> einer praxisindividuellen Anleitung 
 
    Um Zum Abschluss des Projekts wurde eine speziell auf die Praxis abge- stimmte Anleitung zur Nutzung von Doctolib erstellt. 
 
@@ -279,7 +282,7 @@ Da der Datenimport bereits erfolgreich abgeschlossen war, wird bei der In- stall
 
 Die Anleitung wurde verständlich formuliert, praxisnah aufgebaut und auf die tatsächliche Konfiguration der Plattform angepasst. Sie wurde nach der Schulung an die Mitarbeitenden übergeben und zusätzlich im internen Pra- xisnetzwerk zur dauerhaften Verfügung abgelegt. 
 
-3. Go-Live<a name="_page13_x68.00_y457.92"></a> mit Vor-Ort-Betreuung und Schulung 
+4.5.3 Go-Live<a name="_page13_x68.00_y457.92"></a> mit Vor-Ort-Betreuung und Schulung 
 
    Der Go-Live der Doctolib-Plattform fand planmäßig nach Abschluss aller vor- bereitenden Maßnahmen statt. Zur Unterstützung war ich gemeinsam mit einem Kollegen vor Ort in der Praxis, um das Team beim Echtstart zu be- gleiten. 
 
@@ -287,7 +290,9 @@ Die Anleitung wurde verständlich formuliert, praxisnah aufgebaut und auf die ta
 
    Kleinere Rückfragen – z. B. zur Navigation oder Anzeige von Patientendaten – konnten direkt vor Ort geklärt werden. Die Software funktionierte stabil, und der Wechsel verlief reibungslos und ohne nennenswerte Probleme. 
 
-<a name="_page14_x68.00_y70.92"></a>5  Projektabschluss 
+<a name="_page14_x68.00_y70.92"></a>
+
+5  Projektabschluss 
 
 1. Auswertung<a name="_page14_x68.00_y96.92"></a> der Zeitplanung 
 
@@ -316,9 +321,9 @@ Die Anleitung wurde verständlich formuliert, praxisnah aufgebaut und auf die ta
 |**Dokumentation erstellen** |||
 |Erstellung der Dokumentation |8,00 h |8,00 h |
 
-2. Nutzwertanalyse:<a name="_page14_x68.00_y458.92"></a> Doctolib vs. physikalischer Praxisplaner 
+5.2 Nutzwertanalyse:<a name="_page14_x68.00_y458.92"></a> Doctolib vs. physikalischer Praxisplaner 
 
-   Zur  weiteren  Bewertung  der  Einführung  von  Doctolib  wurde  eine  Nutz- wertanalyse durchgeführt, die den digitalen Ansatz mit einem klassischen pa- pierbasierten Praxisplaner vergleicht. Dabei wurden praxisrelevante Kriterien gewichtet und beide Systeme bewertet. 
+Zur  weiteren  Bewertung  der  Einführung  von  Doctolib  wurde  eine  Nutz- wertanalyse durchgeführt, die den digitalen Ansatz mit einem klassischen pa- pierbasierten Praxisplaner vergleicht. Dabei wurden praxisrelevante Kriterien gewichtet und beide Systeme bewertet. 
 
 
 
@@ -336,7 +341,7 @@ Die Nutzwertanalyse zeigt, dass Doctolib dem bisherigen papierbasierten System i
 
 Der einzige Nachteil – die laufenden Lizenzkosten – wird durch die erhebli- chen Vorteile in Erreichbarkeit, Effizienz und Fehlervermeidung deutlich auf- gewogen. 
 
-3. Fazit<a name="_page15_x68.00_y199.92"></a> 
+5.3 Fazit<a name="_page15_x68.00_y199.92"></a> 
 
    Die Einführung von Doctolib in der Praxis war insgesamt erfolgreich und brachte eine deutliche Verbesserung der Terminvergabeprozesse mit sich. 
 
@@ -348,9 +353,11 @@ Der einzige Nachteil – die laufenden Lizenzkosten – wird durch die erhebli- 
 
    Das System ist nach dem Go-Live stabil im Einsatz und bietet eine moderne, zukunftssichere Lösung für die digitale Terminorganisation in der Praxis. 
 
-<a name="_page16_x68.00_y70.92"></a>6  Anhang 
+<a name="_page16_x68.00_y70.92"></a>
 
-1. Glossar<a name="_page16_x68.00_y96.92"></a> 
+6  Anhang 
+
+6.1 Glossar<a name="_page16_x68.00_y96.92"></a> 
 
 
 
@@ -372,7 +379,7 @@ Der einzige Nachteil – die laufenden Lizenzkosten – wird durch die erhebli- 
 |BDT (Behandlungsdatenträger) |Ein standardisiertes Format zur strukturierten Übertragung me- dizinischer Patientendaten zwischen Arztinformationssystemen. Wird z. B. für Exporte bei Systemwechseln verwendet. |
 |MED95BDT |Ein integriertes Export-Tool innerhalb von Medical Office zur Er- stellung von Patientendaten im BDT-Format. Unterstützt den Ex- port von Stammdaten, Falldaten und Krankenakten für Migrati- onen oder Datenübernahmen. |
 
-2. Übersicht<a name="_page16_x68.00_y492.92"></a> der freizugebenden Domains für Doctolib 
+6.2 Übersicht<a name="_page16_x68.00_y492.92"></a> der freizugebenden Domains für Doctolib 
 
    Für  den  reibungslosen  Betrieb  der  Doctolib-Plattform  mussten  in  der Securepoint-Firewall  verschiedene  Domains  und  Subdomains  freigegeben werden. Die folgende Übersicht listet alle relevanten Adressen einschließlich ihrer Kategorien und Einsatzzwecke  
 
@@ -428,7 +435,7 @@ Der einzige Nachteil – die laufenden Lizenzkosten – wird durch die erhebli- 
 |Import |doctolib-imports-prd-aws-de-fra- 1.s3.eu-central-1.amazo- naws.com |Datenimport-Funktion ||
 |Update |doctolib-pro-desktop-produc- tion.s3.amazonaws.com |Updates für Doctolib Desktop ||
 
-3. Quellenverzeichnis<a name="_page18_x68.00_y70.92"></a> 
+6.3 Quellenverzeichnis<a name="_page18_x68.00_y70.92"></a> 
 
    Doctolib – Informations- und Supportseiten: 
 
@@ -452,6 +459,7 @@ Technische Begriffe und Standards/Zertifizierungen
 Seite **19** von **19**
 
 [ref1]: Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.003.png
+
 
 
 
