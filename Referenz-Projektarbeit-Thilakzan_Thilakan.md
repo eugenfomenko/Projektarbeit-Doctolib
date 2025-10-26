@@ -157,18 +157,19 @@ Dazu gehören u. a. Rechte auf Auskunft, Berichtigung, Löschung und Daten- ü
 
 <a name="_page4_x68.00_y668.92"></a>4  Projektdurchführung 
 
-1. Vorbereitung<a name="_page4_x68.00_y697.92"></a> und Abstimmung mit der Praxis 
+4.1 Vorbereitung<a name="_page4_x68.00_y697.92"></a> und Abstimmung mit der Praxis 
 
    Zur Einführung des Projekts wurde der Praxisleitung und der Praxismanagerin die Softwarelösung Doctolib in einer Präsentation vorgestellt. Diese umfasste die grundlegenden Funktionen der Plattform, Vorteile der Online-Termin- vergabe, datenschutzrechtliche Aspekte sowie die geplante Integration in das Arztinformationssystem Medical Office. Ziel war es, ein klares Verständnis für den Systemwechsel zu schaffen und mögliche Fragen direkt zu klären. Nach der Freigabe durch die Praxisleitung folgte eine detaillierte Abstimmung mit allen Beteiligten, bei der unter anderem Anforderungen an die Benutzerfüh- rung, Terminarten, Praxisabläufe und technische Rahmenbedingungen defi- niert wurden. Die Ergebnisse dieser Abstimmung flossen direkt in die spätere Konfiguration der Plattform und die Schulung der Mitarbeitenden ein, was eine hohe Akzeptanz im Praxisalltag ermöglichte. 
 
-2. Technische<a name="_page5_x68.00_y279.92"></a> Planung und Integration in die Praxisinfrastruktur 
+4.2 Technische<a name="_page5_x68.00_y279.92"></a> Planung und Integration in die Praxisinfrastruktur 
 
    Zunächst wurden die technischen Anforderungen in Zusammenarbeit mit der Praxis abgestimmt. Dies beinhaltete die Planung eines geeigneten Zeitfens- ters für die Implementierung, ohne den laufenden Praxisbetrieb zu stören. Die bestehende Netzwerkinfrastruktur wurde auf Kompatibilität mit den Doc- tolib-Anforderungen überprüft und die notwendigen Anpassungen, insbeson- dere an der Firewall vorgenommen. 
 
-3. Einrichten<a name="_page5_x68.00_y431.92"></a> der Geräte und Dienste 
-1. Firewall-Konfiguration<a name="_page5_x68.00_y455.92"></a> & Webfilter 
+4.3 Einrichten<a name="_page5_x68.00_y431.92"></a> der Geräte und Dienste 
 
-   Für den sicheren Betrieb von Doctolib wurde die Securepoint-Firewall ent- sprechend angepasst. Ziel war es, nur den notwendigen Datenverkehr frei- zugeben und gleichzeitig den Datenschutz sowie die IT-Sicherheit der Praxis zu gewährleisten. Die Konfiguration erfolgte in Abstimmung mit den techni- schen Vorgaben von Doctolib. 
+4.3.1 Firewall-Konfiguration<a name="_page5_x68.00_y455.92"></a> & Webfilter 
+
+Für den sicheren Betrieb von Doctolib wurde die Securepoint-Firewall ent- sprechend angepasst. Ziel war es, nur den notwendigen Datenverkehr frei- zugeben und gleichzeitig den Datenschutz sowie die IT-Sicherheit der Praxis zu gewährleisten. Die Konfiguration erfolgte in Abstimmung mit den techni- schen Vorgaben von Doctolib. 
 
    Folgende Schritte wurden durchgeführt: 
 
@@ -451,5 +452,6 @@ Technische Begriffe und Standards/Zertifizierungen
 Seite **19** von **19**
 
 [ref1]: Aspose.Words.7c6d87ee-763e-47c8-8119-192861a84dcb.003.png
+
 
 
